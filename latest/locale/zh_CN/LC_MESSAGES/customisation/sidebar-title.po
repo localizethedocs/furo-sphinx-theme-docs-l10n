@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/sidebar-title.md:1
+msgid "Changing sidebar title"
+msgstr ""
+
+#: ../../../customisation/sidebar-title.md:3
+msgid ""
+"It is possible to have a custom sidebar title in the Sphinx documentation. "
+"This is achieved by adding a variable to the `conf.py` file:"
+msgstr ""
+
+#: ../../../customisation/sidebar-title.md:6
+msgid "html_title = \"your custom sidebar title\"\n"
+msgstr ""
+
+#: ../../../customisation/sidebar-title.md:10
+msgid ""
+"If `html_title` is used, then it overwrites the default sidebar title text "
+"that is:"
+msgstr ""
+
+#: ../../../customisation/sidebar-title.md:12
+msgid "<project> <release> documentation\n"
+msgstr ""
+
+#: ../../../customisation/sidebar-title.md:16
+msgid ""
+"where `project` and `release` are variables with the same name in the `conf."
+"py` file. If `release` is not specified, it will be omitted from the title."
+msgstr ""
