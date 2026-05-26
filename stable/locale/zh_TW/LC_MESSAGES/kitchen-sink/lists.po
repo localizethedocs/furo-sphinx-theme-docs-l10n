@@ -112,11 +112,11 @@ msgstr ""
 
 #: ../../../kitchen-sink/lists.rst:53
 msgid "Definition paragraph 1."
-msgstr ""
+msgstr "定義段落 1。"
 
 #: ../../../kitchen-sink/lists.rst:55
 msgid "Definition paragraph 2."
-msgstr ""
+msgstr "定義段落 2。"
 
 #: ../../../kitchen-sink/lists.rst:59
 msgid ""
@@ -304,7 +304,7 @@ msgstr ""
 
 #: ../../../kitchen-sink/lists.rst:132
 msgid "Import Package"
-msgstr ""
+msgstr "匯入軟體包"
 
 #: ../../../kitchen-sink/lists.rst:135
 msgid ""
