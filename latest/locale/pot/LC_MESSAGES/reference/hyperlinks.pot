@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/hyperlinks.md:1
+msgid "Hyperlinks"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:3
+msgid ""
+"Hyperlinks are extremely useful for connecting related topics without having "
+"to depart from a clear linear exposition. Sphinx supports various formats "
+"for creating hyperlinks, with {any}`sphinx.ext.intersphinx` being a great "
+"tool for cross-documentation hyperlinks."
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:8
+msgid ""
+"Hyperlinks can take various forms, so here's a list of them:\n"
+"\n"
+"- standalone hyperlink: https://python.org/\n"
+"- hyperlink using references: `link <link>`__\n"
+"- hyperlink with inline URL: `link <https://python.org/>`_\n"
+"- hyperlink to a different page: :doc:`link <../quickstart>`\n"
+"- hyperlink to a specific API element: :class:`pathlib.Path`\n"
+"\n"
+".. _link: https://python.org/"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:22 ../../../reference/hyperlinks.md:46
+msgid "Hyperlinks can take various forms, so here's a list of them:"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:24
+msgid "standalone hyperlink: https://python.org/"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:25
+msgid "hyperlink using references: `link <link>`__"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:26
+msgid "hyperlink with inline URL: `link <https://python.org/>`_"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:27
+msgid "hyperlink to a different page: :doc:`link <../quickstart>`"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:28
+msgid "hyperlink to a specific API element: :class:`pathlib.Path`"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:34
+msgid ""
+"Hyperlinks can take various forms, so here's a list of them:\n"
+"\n"
+"- standalone hyperlink: <https://python.org/>\n"
+"- hyperlink using references: [link][markdown-external-hyperlink]\n"
+"- hyperlink with inline URL: [link](https://python.org/)\n"
+"- hyperlink to a different page: [link](../quickstart)\n"
+"- hyperlink to a specific API element: {class}`pathlib.Path`\n"
+"\n"
+"[markdown-external-hyperlink]: https://python.org/\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:48
+msgid "standalone hyperlink: <https://python.org/>"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:49
+msgid "hyperlink using references: [link][markdown-external-hyperlink]"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:50
+msgid "hyperlink with inline URL: [link](https://python.org/)"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:51
+msgid "hyperlink to a different page: [link](../quickstart)"
+msgstr ""
+
+#: ../../../reference/hyperlinks.md:52
+msgid "hyperlink to a specific API element: {class}`pathlib.Path`"
+msgstr ""

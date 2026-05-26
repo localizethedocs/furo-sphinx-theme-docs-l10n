@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/sidebar.md:1
+msgid "Changing sidebar elements"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:7
+msgid ""
+"Furo supports customising the elements that show up in the navigational "
+"sidebar (left). This is to provide documentation authors who are willing to "
+"work with HTML/CSS to change and tweak how the sidebar looks."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:9
+msgid "Unstable"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:12
+msgid ""
+"This customisation considered \"unstable\" under Furo's {doc}`../stability`."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:14
+msgid ""
+"Furo is not designed to accommodate for all potential custom sidebar "
+"designs. It is also possible to get suboptimal results (or even break the "
+"layout!) when overriding the default sidebar."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:17
+msgid "Expectations"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:19
+msgid ""
+"It is expected that users who override the sidebar would also carefully "
+"consider how their documentation looks across various platforms (i.e. not "
+"take a \"looks OK on my machine\" approach) and would be willing to override "
+"Furo's styles to make it work with their sidebar design."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:21
+msgid "Some things to consider when doing this are:"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:23
+msgid ""
+"different OSs/browsers handle scrollbars and their widths differently, with "
+"different effects on the layouting"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:25
+msgid ""
+"end users can customise the look of their default scrollbars at an OS "
+"level(like overlay, hidden, visible-and-takes-space and maybe more?)"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:26
+msgid "different viewport heights will differ across devices"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:27
+msgid ""
+"\"user interaction flows\", such as looking for a certain page in the "
+"sidebar or via search."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:29
+msgid "Default design"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:31
+msgid ""
+"The following code snippet lists the fragments (HTML files from Furo's theme "
+"folder) that are used for the default sidebar design."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:33
+msgid ""
+"sidebars =\n"
+"  sidebar/brand.html,\n"
+"  sidebar/search.html,\n"
+"  sidebar/scroll-start.html,\n"
+"  sidebar/navigation.html,\n"
+"  sidebar/ethical-ads.html,\n"
+"  sidebar/scroll-end.html,\n"
+"  sidebar/variant-selector.html\n"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:42
+msgid ""
+"The scrollable region in the sidebar is determined by `sidebar/scroll-start."
+"html` and `sidebar/scroll-end.html`. Any elements that fall between them can "
+"be scrolled."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:45
+msgid "Making changes"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:47
+msgid "There are two main ways to customise Furo's sidebar:"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:49
+msgid ""
+"override the content of the default templates with your own templates, using "
+"[`templates_path`][sphinx-templates_path]."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:50
+msgid ""
+"change the entire sidebar structure, using [`html_sidebars`][sphinx-"
+"html_sidebars]."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:52
+msgid "Using `templates_path`"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:54
+msgid ""
+"This is useful when you want to change a specific element of the sidebar. A "
+"good example for when you might want to use this: adding a tagline after "
+"your project's name/logo."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:56
+msgid ""
+"This is done by setting [`templates_path`][sphinx-templates_path] in the "
+"`conf.py` and correctly adding files within the configured paths."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:58
+msgid "templates_path = [\"_templates\"]\n"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:62
+msgid ""
+"For the above example -- adding a tagline after the name/logo -- you'd want "
+"to add an `_templates/sidebar/brand.html` file, that overrides the "
+"appropriate content. For more information on how to do so, [Sphinx's "
+"templating documentation][templating]."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:64
+msgid "Using `html_sidebars`"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:66
+msgid ""
+"This is useful when you want to make drastic or major changes to the design "
+"of Furo's sidebar."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:68
+msgid ""
+"As an example, to make the _entire_ sidebar scrollable, it is possible to "
+"set `sidebar/scroll-start.html` as the first fragment and `sidebar/scroll-"
+"end.html` as the last fragment."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:70
+msgid ""
+"html_sidebars = {\n"
+"    \"**\": [\n"
+"        \"sidebar/scroll-start.html\",\n"
+"        \"sidebar/brand.html\",\n"
+"        \"sidebar/search.html\",\n"
+"        \"sidebar/navigation.html\",\n"
+"        \"sidebar/ethical-ads.html\",\n"
+"        \"sidebar/scroll-end.html\",\n"
+"    ]\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/sidebar.md:84
+msgid ""
+"`sidebar/scroll-start.html` and `sidebar/scroll-end.html` must be included "
+"in the sidebar. Ensure that the \"non-scrollable\" elements (i.e. that don't "
+"occur between these two) do not go beyond the height of the viewport."
+msgstr ""
+
+#: ../../../customisation/sidebar.md:88
+msgid ""
+"If you're hosting your documentation on Read the Docs, please make sure that "
+"`sidebar/ethical-ads.html` is included in the sidebar. This helps keep Read "
+"the Docs sustainable."
+msgstr ""

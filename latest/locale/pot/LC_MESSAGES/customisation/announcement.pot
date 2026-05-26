@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/announcement.md:1
+msgid "Adding an announcement banner"
+msgstr ""
+
+#: ../../../customisation/announcement.md:7
+msgid ""
+"Furo makes it fairly straightforward to add a site-wide announcement (AKA "
+"top banner). The announcement is added to the top of all pages on the "
+"website."
+msgstr ""
+
+#: ../../../customisation/announcement.md:9
+msgid ""
+"This is done by setting `announcement` key in [`html_theme_options`][sphinx-"
+"html_theme_options] in your `conf.py` file. The value of this key is HTML, "
+"which is included as-is into the page."
+msgstr ""
+
+#: ../../../customisation/announcement.md:11
+msgid ""
+"html_theme_options = {\n"
+"    \"announcement\": \"<em>Important</em> announcement!\",\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/announcement.md:17
+msgid ""
+"The background and foreground of the announcement element are customisable, "
+"via the mechanisms described in {doc}`colors`."
+msgstr ""

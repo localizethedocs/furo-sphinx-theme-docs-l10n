@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../quickstart.md:1
+msgid "Quickstart"
+msgstr ""
+
+#: ../../../../README.md:1113
+msgid "Furo is distributed on [PyPI]. To use the theme in your Sphinx project:"
+msgstr ""
+
+#: ../../../../README.md:1115
+msgid "Install Furo in documentation's build environment."
+msgstr ""
+
+#: ../../../../README.md:1117
+msgid "pip install furo\n"
+msgstr ""
+
+#: ../../../../README.md:1121
+msgid "Update the `html_theme` in `conf.py`."
+msgstr ""
+
+#: ../../../../README.md:1123
+msgid "html_theme = \"furo\"\n"
+msgstr ""
+
+#: ../../../../README.md:1127
+msgid ""
+"Your Sphinx documentation's HTML pages will now be generated with this "
+"theme! 🎉"
+msgstr ""

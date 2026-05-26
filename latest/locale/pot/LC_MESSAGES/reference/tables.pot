@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/tables.md:1
+msgid "Tables"
+msgstr ""
+
+#: ../../../reference/tables.md:3
+msgid ""
+"Tables can be the best way to organize sets of related pieces of data. "
+"Sphinx supports including tables inline, although the exact syntax and "
+"capabilities depend on the markup language used."
+msgstr ""
+
+#: ../../../reference/tables.md:8
+msgid ""
+"Grid table:\n"
+"\n"
+"+------------+------------+-----------+\n"
+"| Header 1   | Header 2   | Header 3  |\n"
+"+============+============+===========+\n"
+"| body row 1 | column 2   | column 3  |\n"
+"+------------+------------+-----------+\n"
+"| body row 2 | Cells may span columns.|\n"
+"+------------+------------+-----------+\n"
+"| body row 3 | Cells may  | - Cells   |\n"
+"+------------+ span rows. | - contain |\n"
+"| body row 4 |            | - blocks. |\n"
+"+------------+------------+-----------+\n"
+"\n"
+"Simple table:\n"
+"\n"
+"=====  =====  ======\n"
+"   Inputs     Output\n"
+"------------  ------\n"
+"  A      B    A or B\n"
+"=====  =====  ======\n"
+"False  False  False\n"
+"True   False  True\n"
+"False  True   True\n"
+"True   True   True\n"
+"=====  =====  ======"
+msgstr ""
+
+#: ../../../reference/tables.md:39
+msgid "Grid table:"
+msgstr ""
+
+#: ../../../reference/tables.md:42
+msgid "Header 1"
+msgstr ""
+
+#: ../../../reference/tables.md:42
+msgid "Header 2"
+msgstr ""
+
+#: ../../../reference/tables.md:42
+msgid "Header 3"
+msgstr ""
+
+#: ../../../reference/tables.md:44
+msgid "body row 1"
+msgstr ""
+
+#: ../../../reference/tables.md:44
+msgid "column 2"
+msgstr ""
+
+#: ../../../reference/tables.md:44
+msgid "column 3"
+msgstr ""
+
+#: ../../../reference/tables.md:46
+msgid "body row 2"
+msgstr ""
+
+#: ../../../reference/tables.md:46
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../../reference/tables.md:48
+msgid "body row 3"
+msgstr ""
+
+#: ../../../reference/tables.md:48
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../../reference/tables.md:48
+msgid "Cells"
+msgstr ""
+
+#: ../../../reference/tables.md:49
+msgid "contain"
+msgstr ""
+
+#: ../../../reference/tables.md:50
+msgid "blocks."
+msgstr ""
+
+#: ../../../reference/tables.md:50
+msgid "body row 4"
+msgstr ""
+
+#: ../../../reference/tables.md:53
+msgid "Simple table:"
+msgstr ""
+
+#: ../../../reference/tables.md:56
+msgid "Inputs"
+msgstr ""
+
+#: ../../../reference/tables.md:56
+msgid "Output"
+msgstr ""
+
+#: ../../../reference/tables.md:58
+msgid "A"
+msgstr ""
+
+#: ../../../reference/tables.md:58
+msgid "B"
+msgstr ""
+
+#: ../../../reference/tables.md:58
+msgid "A or B"
+msgstr ""
+
+#: ../../../reference/tables.md:60 ../../../reference/tables.md:61
+#: ../../../reference/tables.md:62
+msgid "False"
+msgstr ""
+
+#: ../../../reference/tables.md:61 ../../../reference/tables.md:62
+#: ../../../reference/tables.md:63
+msgid "True"
+msgstr ""
+
+#: ../../../reference/tables.md:68
+msgid ""
+"MyST supports tables like [GitHub Flavoured Markdown][1].\n"
+"\n"
+"| Header  | Another header |\n"
+"|---------|----------------|\n"
+"| field 1 | something      |\n"
+"| field 2 | something else |\n"
+"\n"
+"List tables are also a thing:\n"
+"\n"
+"```{list-table}\n"
+":header-rows: 1\n"
+"\n"
+"* - This is\n"
+"  - the header\n"
+"  - row\n"
+"* - First\n"
+"  - row of\n"
+"  - very important content\n"
+"* - Second\n"
+"  - row of\n"
+"  - very important content\n"
+"```\n"
+"\n"
+"[1]: https://docs.github.com/en/github/writing-on-github/organizing-"
+"information-with-tables\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/tables.md:95
+msgid "MyST supports tables like [GitHub Flavoured Markdown][1]."
+msgstr ""
+
+#: ../../../reference/tables.md:102
+msgid "List tables are also a thing:"
+msgstr ""
+
+#: ../../../reference/tables.md:107
+msgid "This is"
+msgstr ""
+
+#: ../../../reference/tables.md:108
+msgid "the header"
+msgstr ""
+
+#: ../../../reference/tables.md:109
+msgid "row"
+msgstr ""
+
+#: ../../../reference/tables.md:110
+msgid "First"
+msgstr ""
+
+#: ../../../reference/tables.md:111 ../../../reference/tables.md:114
+msgid "row of"
+msgstr ""
+
+#: ../../../reference/tables.md:112 ../../../reference/tables.md:115
+msgid "very important content"
+msgstr ""
+
+#: ../../../reference/tables.md:113
+msgid "Second"
+msgstr ""
