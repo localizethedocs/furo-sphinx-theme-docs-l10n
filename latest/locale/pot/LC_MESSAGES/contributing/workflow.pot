@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../contributing/workflow.md:1
+msgid "Workflow"
+msgstr ""
+
+#: ../../../contributing/workflow.md:3
+msgid ""
+"This page describes the tooling used during development of this project. It "
+"also serves as a reference for the various commands that you would use when "
+"working on this project."
+msgstr ""
+
+#: ../../../contributing/workflow.md:5
+msgid "Overview"
+msgstr ""
+
+#: ../../../contributing/workflow.md:7
+msgid ""
+"This project uses the [GitHub Flow] for collaboration. The codebase contains "
+"Python code, [Jinja2]-based HTML pages, [Sass] stylesheets and Javascript "
+"code."
+msgstr ""
+
+#: ../../../contributing/workflow.md:9
+msgid "[nox] is used for automating development tasks."
+msgstr ""
+
+#: ../../../contributing/workflow.md:10
+msgid ""
+"[Webpack]-based build pipeline is used to process the Sass and Javascript "
+"files."
+msgstr ""
+
+#: ../../../contributing/workflow.md:11
+msgid ""
+"[sphinx-autobuild] is used to provide live-reloading pages when working on "
+"the theme."
+msgstr ""
+
+#: ../../../contributing/workflow.md:12
+msgid "[pre-commit] is used for running the linters."
+msgstr ""
+
+#: ../../../contributing/workflow.md:14
+msgid "Initial Setup"
+msgstr ""
+
+#: ../../../contributing/workflow.md:16
+msgid ""
+"To work on this project, you need to have git 2.17+ and Python 3.6+. You "
+"also need to be on a platform that is officially supported by NodeJS 16."
+msgstr ""
+
+#: ../../../contributing/workflow.md:18
+msgid "Clone this project using git:"
+msgstr ""
+
+#: ../../../contributing/workflow.md:20
+msgid ""
+"git clone https://github.com/pradyunsg/furo.git\n"
+"cd furo\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:25
+msgid "Install the project's development workflow runner:"
+msgstr ""
+
+#: ../../../contributing/workflow.md:27
+msgid "pip install nox\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:31
+msgid "You're all set for working on this project."
+msgstr ""
+
+#: ../../../contributing/workflow.md:33
+msgid "Commands"
+msgstr ""
+
+#: ../../../contributing/workflow.md:35
+msgid "Code Linting"
+msgstr ""
+
+#: ../../../contributing/workflow.md:37
+msgid "nox -s lint\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:41
+msgid "Run the linters, as configured with [pre-commit]."
+msgstr ""
+
+#: ../../../contributing/workflow.md:43
+msgid "Local Development Server"
+msgstr ""
+
+#: ../../../contributing/workflow.md:45
+msgid "nox -s docs-live\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:49
+msgid ""
+"Serve this project's documentation locally, using [sphinx-autobuild]. This "
+"will open the generated documentation page in your browser."
+msgstr ""
+
+#: ../../../contributing/workflow.md:51
+msgid ""
+"The server also watches for changes made to the documentation (`docs/`) or "
+"theme (`src/`), which will trigger a rebuild. Once the build is completed, "
+"server will automagically reload any open pages using livereload."
+msgstr ""
+
+#: ../../../contributing/workflow.md:54
+msgid "My workflow, when I'm working on this theme, is along the lines of:"
+msgstr ""
+
+#: ../../../contributing/workflow.md:56
+msgid "Run this command, and wait for the browser window to open."
+msgstr ""
+
+#: ../../../contributing/workflow.md:57
+msgid "<kbd>alt</kbd>+<kbd>tab</kbd> gets me back to my text editor."
+msgstr ""
+
+#: ../../../contributing/workflow.md:57 ../../../contributing/workflow.md:59
+#: ../../../contributing/workflow.md:61
+msgid "<kbd>"
+msgstr ""
+
+#: ../../../contributing/workflow.md:57 ../../../contributing/workflow.md:59
+#: ../../../contributing/workflow.md:61
+msgid "</kbd>"
+msgstr ""
+
+#: ../../../contributing/workflow.md:58
+msgid "Make changes to some files and save those changes."
+msgstr ""
+
+#: ../../../contributing/workflow.md:59
+msgid "<kbd>alt</kbd>+<kbd>tab</kbd> switches to the browser."
+msgstr ""
+
+#: ../../../contributing/workflow.md:60
+msgid "After a small delay, the change is reflected in the browser."
+msgstr ""
+
+#: ../../../contributing/workflow.md:61
+msgid ""
+"If I want to make more changes, <kbd>alt</kbd>+<kbd>tab</kbd> and I'm back "
+"to my text editor."
+msgstr ""
+
+#: ../../../contributing/workflow.md:62
+msgid "Repeat the previous 4 steps until happy."
+msgstr ""
+
+#: ../../../contributing/workflow.md:64
+msgid "\\- @pradyunsg"
+msgstr ""
+
+#: ../../../contributing/workflow.md:67
+msgid "Documentation Generation"
+msgstr ""
+
+#: ../../../contributing/workflow.md:69
+msgid "nox -s docs\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:73
+msgid ""
+"Generate the documentation for Furo into the `build/docs` folder. This "
+"(mostly) does the same thing as `nox -s docs-live`, except it invokes "
+"`sphinx-build` instead of [sphinx-autobuild]."
+msgstr ""
+
+#: ../../../contributing/workflow.md:75
+msgid "Release process"
+msgstr ""
+
+#: ../../../contributing/workflow.md:77
+msgid "Update the changelog"
+msgstr ""
+
+#: ../../../contributing/workflow.md:78
+msgid "Run `nox -s release`"
+msgstr ""
+
+#: ../../../contributing/workflow.md:79
+msgid "Once that command succeeds, you're done!"
+msgstr ""
+
+#: ../../../contributing/workflow.md:81
+msgid "Installing directly from GitHub"
+msgstr ""
+
+#: ../../../contributing/workflow.md:83
+msgid ""
+"There are times when you might want to install the in-development version of "
+"Furo (mostly for testing that a fix actually does fix things)."
+msgstr ""
+
+#: ../../../contributing/workflow.md:85
+msgid ""
+"This can be done by directly telling pip to install from Furo from GitHub. "
+"You likely want to install from a zip archive, to avoid cloning the entire "
+"Git history:"
+msgstr ""
+
+#: ../../../contributing/workflow.md:87
+msgid ""
+"pip install https://github.com/pradyunsg/furo/archive/refs/heads/main.zip\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:91
+msgid "Dependency management"
+msgstr ""
+
+#: ../../../contributing/workflow.md:93
+msgid ""
+"This project has dependencies managed via [pre-commit], Python and NodeJS. "
+"We regularly update these dependencies to ensure that the project's "
+"development workflow is up-to-date. Aside from the risks of functional "
+"behavior changes in dependencies, the updates for pre-commit and NodeJS can "
+"be done by running:"
+msgstr ""
+
+#: ../../../contributing/workflow.md:95
+msgid ""
+"pre-commit autoupdate\n"
+"npm update\n"
+msgstr ""
+
+#: ../../../contributing/workflow.md:100
+msgid ""
+"The Python dependencies are un-pinned, other than Sphinx which requires "
+"manual intervention to investigate the updates."
+msgstr ""

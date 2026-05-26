@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/landing-page.md:1
+msgid "Changing landing page"
+msgstr ""
+
+#: ../../../customisation/landing-page.md:3
+msgid ""
+"It is possible to have a custom landing page in Sphinx documentation. This "
+"is achieved by adding a custom template file for that page and setting "
+"[`html_additional_pages`][additional-pages] in `conf.py`."
+msgstr ""
+
+#: ../../../customisation/landing-page.md:5
+msgid ""
+"templates_path = [\"_templates\"]\n"
+"html_additional_pages = {\"index\": \"your-custom-landing-page.html\"}\n"
+msgstr ""
+
+#: ../../../customisation/landing-page.md:11
+msgid ""
+"You'll need to write HTML for the page in `_templates/your-custom-landing-"
+"page.html`, if you use the above example as-is."
+msgstr ""
+
+#: ../../../customisation/landing-page.md:14
+msgid ""
+"In case you're curious, this works because Sphinx allows overwriting "
+"existing files when generating the website and processes "
+"`html_additional_pages` _after_ processing the pages normally. These two "
+"behaviours combined mean that we can overwrite the page generated with the "
+"default layout by specifying the same document with a different template in "
+"`html_additional_pages`."
+msgstr ""
