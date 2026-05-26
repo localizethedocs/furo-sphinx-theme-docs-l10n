@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../../index.md:23
 msgid "Development"
-msgstr ""
+msgstr "開發"
 
 #: ../../../index.md:5
 msgid "Furo"
-msgstr ""
+msgstr "Furo"
 
 #: ../../../index.md:7
 msgid "A clean customisable Sphinx documentation theme."

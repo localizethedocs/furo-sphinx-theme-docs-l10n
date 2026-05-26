@@ -126,7 +126,7 @@ msgstr ""
 
 #: ../../../customisation/top-of-page-buttons.md:58
 msgid "Read the Docs support"
-msgstr ""
+msgstr "Read the Docs 支援"
 
 #: ../../../customisation/top-of-page-buttons.md:65
 msgid "This feature is only available for projects hosted on GitHub."
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../../customisation/top-of-page-buttons.md:72
 msgid "Edit button on Read the Docs"
-msgstr ""
+msgstr "Read the Docs 上的編輯按鈕"
 
 #: ../../../customisation/top-of-page-buttons.md:74
 msgid "The _edit_ button will link to GitHub's edit view for the document."
@@ -155,7 +155,7 @@ msgstr ""
 
 #: ../../../customisation/top-of-page-buttons.md:76
 msgid "View button on Read the Docs"
-msgstr ""
+msgstr "Read the Docs 上的檢視按鈕"
 
 #: ../../../customisation/top-of-page-buttons.md:78
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../../../customisation/top-of-page-buttons.md:87
 msgid "Disabling on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上停用"
 
 #: ../../../customisation/top-of-page-buttons.md:94
 msgid "`top_of_page_buttons` replaces the singular `top_of_page_button`."
