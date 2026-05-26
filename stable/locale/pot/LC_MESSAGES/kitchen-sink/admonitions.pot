@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/admonitions.rst:8
+msgid "Admonitions"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:10
+msgid "Sphinx provides several different types of admonitions."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:13
+msgid "``topic``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:15
+msgid "This is a topic."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:17
+msgid ""
+"This is what admonitions are a special case of, according to the docutils "
+"documentation."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:21
+msgid "``admonition``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:23
+msgid "The one with the custom titles"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:25
+msgid "It's got a certain charm to it."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:28
+msgid "``attention``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:32
+msgid "Climate change is real."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:35
+msgid "``caution``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:39
+msgid "Cliff ahead: Don't drive off it."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:42
+msgid "``danger``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:46
+msgid "Mad scientist at work!"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:49
+msgid "``error``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:53
+msgid "Does not compute."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:56
+msgid "``hint``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:60
+msgid "Insulators insulate, until they are subject to ______ voltage."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:63
+msgid "``important``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:67
+msgid "Tech is not neutral, nor is it apolitical."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:70
+msgid "``note``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:74
+msgid "This is a note."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:77
+msgid "``seealso``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:81
+msgid "Other relevant information."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:84
+msgid "``tip``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:88
+msgid "25% if the service is good."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:91
+msgid "``todo``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:93
+msgid "Todo"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:95
+msgid "This needs the ``sphinx.ext.todo`` extension."
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:98
+msgid "``warning``"
+msgstr ""
+
+#: ../../../kitchen-sink/admonitions.rst:102
+msgid "Reader discretion is strongly advised."
+msgstr ""
