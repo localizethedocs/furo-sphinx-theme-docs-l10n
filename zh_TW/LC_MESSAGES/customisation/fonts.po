@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/fonts.md:1
+msgid "Changing fonts"
+msgstr ""
+
+#: ../../../customisation/fonts.md:8
+msgid "Add `font-stack--headings`."
+msgstr ""
+
+#: ../../../customisation/fonts.md:11
+msgid ""
+"Furo makes it fairly straightforward to change the fonts across the entire "
+"page."
+msgstr ""
+
+#: ../../../customisation/fonts.md:13
+msgid ""
+"This is done by changing the values of the relevant CSS variables: `font-"
+"stack` (for regular text), `font-stack--monospace` (for code blocks and "
+"inline code) and `font-stack--headings` (for headings). This can be done "
+"using Furo's [mechanism for setting CSS variables](css-variables) -- "
+"specifically by setting them as the fonts for the light mode (which is "
+"inherited by the dark mode)."
+msgstr ""
+
+#: ../../../customisation/fonts.md:15
+msgid ""
+"html_theme_options = {\n"
+"    \"light_css_variables\": {\n"
+"        \"font-stack\": \"Arial, sans-serif\",\n"
+"        \"font-stack--monospace\": \"Courier, monospace\",\n"
+"        \"font-stack--headings\": \"Georgia, serif\",\n"
+"    },\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/fonts.md:26
+msgid ""
+"It is strongly recommended to not change the fonts unless there is a strong "
+"reason (such as brand identity)."
+msgstr ""
+
+#: ../../../customisation/fonts.md:28
+msgid ""
+"Furo's default fonts are carefully selected to look good across all major "
+"platforms without requiring additional web font downloads, enabling faster "
+"page loads and higher quality text presentation."
+msgstr ""

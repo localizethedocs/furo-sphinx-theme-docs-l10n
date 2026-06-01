@@ -1,0 +1,386 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/blocks.rst:8
+msgid "Blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:11
+msgid "Block Quotes"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:13
+msgid "Block quotes consist of indented body elements:"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:15 ../../../kitchen-sink/blocks.rst:30
+#: ../../../kitchen-sink/blocks.rst:45 ../../../kitchen-sink/blocks.rst:60
+msgid ""
+"My theory by A. Elk.  Brackets Miss, brackets.  This theory goes as follows "
+"and begins now.  All brontosauruses are thin at one end, much much thicker "
+"in the middle and then thin again at the far end.  That is my theory, it is "
+"mine, and belongs to me and I own it, and what it is too."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:21 ../../../kitchen-sink/blocks.rst:36
+#: ../../../kitchen-sink/blocks.rst:51 ../../../kitchen-sink/blocks.rst:66
+msgid "Anne Elk (Miss)"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:24
+msgid "Epigraph"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:26
+msgid "https://docutils.sourceforge.io/docs/ref/rst/directives.html#epigraph"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:39
+msgid "Pull quotes"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:41
+msgid "https://docutils.sourceforge.io/docs/ref/rst/directives.html#pull-quote"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:54
+msgid "Highlights"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:56
+msgid "https://docutils.sourceforge.io/docs/ref/rst/directives.html#highlights"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:69
+msgid "Line Blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:71
+msgid ""
+"https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#line-"
+"blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:73
+msgid "This is a normal text paragraph."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:75
+msgid "This is a line block.  It ends with a blank line."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:76
+msgid "Each new line begins with a vertical bar (\"|\")."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:77
+msgid "Line breaks and initial indents are preserved."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:78
+msgid ""
+"Continuation lines are wrapped portions of long lines; they begin with a "
+"space in place of the vertical bar."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:80
+msgid ""
+"The left edge of a continuation line need not be aligned with the left edge "
+"of the text above it."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:83
+msgid "This is a second line block."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:85
+msgid "Blank lines are permitted internally, but they must begin with a \"|\"."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:87 ../../../kitchen-sink/blocks.rst:130
+msgid "This is a normal text paragraph again."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:90
+msgid "Monospace Blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:92
+msgid ""
+"Sphinx supports many kinds of monospace blocks. This section is meant to "
+"showcase *all* of them that are known to the author of this page, at the "
+"time of writing."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:97
+msgid "Production List"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:99
+msgid ""
+"https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives."
+"html#directive-productionlist"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:101
+msgid ""
+"This directive is used to enclose a group of productions. Each production is "
+"given on a single line and consists of a name, separated by a colon from the "
+"following definition."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:103
+msgid ""
+"This just shows up as a vanilla ``<pre>``, which is... both nice and a bit "
+"annoying."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:117
+msgid "Literal Blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:119
+msgid ""
+"https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics."
+"html#literal-blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:121
+msgid ""
+"contains a block of text where line breaks and whitespace are significant "
+"and must be preserved"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:123
+msgid "This is a normal text paragraph. The next paragraph is a code sample::"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:125
+msgid ""
+"It is not processed in any way, except\n"
+"that the indentation is removed.\n"
+"\n"
+"It can span multiple lines."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:132
+msgid "They can be quoted without indentation::"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:134
+msgid ""
+">> Great idea!\n"
+">\n"
+"> Why didn't I think of that?"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:138
+msgid "Literal includes can also have captions."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:138
+msgid ""
+"from typing import Any, Dict, Iterator, List, Optional, cast\n"
+"\n"
+"import sphinx.application\n"
+"from docutils import nodes\n"
+"from pygments.formatters import HtmlFormatter\n"
+"from pygments.style import Style\n"
+"from pygments.token import Text\n"
+"from sphinx.builders.dirhtml import DirectoryHTMLBuilder\n"
+"from sphinx.builders.html import StandaloneHTMLBuilder\n"
+"from sphinx.environment.adapters.toctree import TocTree\n"
+"from sphinx.errors import ConfigError\n"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:145
+msgid "Doctest Blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:147
+msgid ""
+"https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#doctest-"
+"blocks"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:149
+msgid ""
+"Doctest blocks are interactive Python sessions cut-and-pasted into "
+"docstrings. They are meant to illustrate usage by example, and provide an "
+"elegant and powerful testing environment via the doctest module in the "
+"Python standard library."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:153
+msgid "This is fine."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:163
+msgid "Parsed Literals"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:165
+msgid ""
+"https://docutils.sourceforge.io/docs/ref/rst/directives.html#parsed-literal-"
+"block"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:167
+msgid ""
+"It is equivalent to a line block with different rendering: typically in a "
+"typewriter/monospaced typeface, like an ordinary literal block. Parsed "
+"literal blocks are useful for adding hyperlinks to code examples."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:171
+msgid ""
+"# parsed-literal test\n"
+"curl -O http://someurl/release-0.1.0.tar-gz\n"
+"echo \"This is an intentionally very long line because I want to make sure "
+"that we are handling scrollable code blocks correctly.\"\n"
+"\n"
+"asyncio.set_event_loop_policy(\n"
+"    asyncio.WindowsSelectorEventLoopPolicy()\n"
+")"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:180
+msgid "With inline code"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:182
+msgid "Here's a parsed literal containing nested inline code:"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:186
+msgid ""
+":obj:`asyncio.set_event_loop_policy`\\ (\n"
+"    :obj:`asyncio.WindowsSelectorEventLoopPolicy`\\ ()\n"
+")"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:191
+msgid "Code Block"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:193
+msgid "https://docutils.sourceforge.io/docs/ref/rst/directives.html#code"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:195
+msgid "The \"code\" directive constructs a literal block [containing code]."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:197
+msgid "This has an alias of ``code-block``."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:200
+msgid ""
+"from typing import Iterator\n"
+"\n"
+"\n"
+"# This is an example\n"
+"class Math:\n"
+"    @staticmethod\n"
+"    def fib(n: int) -> Iterator[int]:\n"
+"        \"\"\"Fibonacci series up to n\"\"\"\n"
+"        a, b = 0, 1\n"
+"        while a < n:\n"
+"            yield a\n"
+"            a, b = b, a + b\n"
+"\n"
+"\n"
+"result = sum(Math.fib(42))\n"
+"print(\"The answer is {}\".format(result))"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:222
+msgid "With caption"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:224
+msgid "Code Blocks can have captions, which also adds a link to it."
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:224
+msgid ""
+"{\n"
+"  \"session_name\": \"shorthands\",\n"
+"  \"windows\": [\n"
+"    {\n"
+"      \"panes\": [\n"
+"        {\n"
+"          \"shell_command\": \"echo 'This is an intentionally very long line "
+"because I want to make sure that we are handling scrollable code blocks "
+"correctly.'\"\n"
+"        }\n"
+"      ],\n"
+"      \"window_name\": \"long form\"\n"
+"    }\n"
+"  ]\n"
+"}"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:242
+msgid "With line numbers"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:244
+msgid ""
+"def some_function():\n"
+"    interesting = False\n"
+"    print(\"This line is highlighted.\")\n"
+"    print(\"This one is not...\")\n"
+"    print(\"...but this one is.\")\n"
+"    print(\n"
+"        \"This is an intentionally very long line because I want to make "
+"sure that we are handling scrollable code blocks correctly.\"\n"
+"    )"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:258
+msgid "With ``none`` highlighting"
+msgstr ""
+
+#: ../../../kitchen-sink/blocks.rst:260
+msgid ""
+"# Taken from https://en.wikipedia.org/wiki/Pseudocode#Example\n"
+"algorithm ford-fulkerson is\n"
+"    input: Graph G with flow capacity c,\n"
+"        source node s,\n"
+"        sink node t\n"
+"    output: Flow f such that f is maximal from s to t\n"
+"\n"
+"    (Note that f(u,v) is the flow from node u to node v, and c(u,v) is the "
+"flow capacity from node u to node v)\n"
+"\n"
+"    for each edge (u, v) in GE do\n"
+"        f(u, v) ← 0\n"
+"        f(v, u) ← 0\n"
+"\n"
+"    while there exists a path p from s to t in the residual network Gf do\n"
+"        let cf be the flow capacity of the residual network Gf\n"
+"        cf(p) ← min{cf(u, v) | (u, v) in p}\n"
+"        for each edge (u, v) in p do\n"
+"            f(u, v) ←  f(u, v) + cf(p)\n"
+"            f(v, u) ← −f(u, v)\n"
+"\n"
+"    return f"
+msgstr ""
