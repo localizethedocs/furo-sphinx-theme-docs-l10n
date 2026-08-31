@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/injecting.md:1
+msgid "Injecting code"
+msgstr ""
+
+#: ../../../customisation/injecting.md:3
+msgid ""
+"Sphinx makes it fairly straightforward to add custom JS/CSS/HTML code to "
+"your pages. Furo supports the mechanisms provided by Sphinx for this."
+msgstr ""
+
+#: ../../../customisation/injecting.md:5
+msgid "Unstable"
+msgstr ""
+
+#: ../../../customisation/injecting.md:7
+msgid ""
+"This customisation considered \"unstable\" under Furo's {doc}`../stability`."
+msgstr ""
+
+#: ../../../customisation/injecting.md:9
+msgid ""
+"Customisations done directly with CSS/JS/HTML are unbounded. Furo is not "
+"designed to accommodate for custom CSS/JS/HTML in any meaningful way, and no "
+"effort is made to stay compatible with such customisations."
+msgstr ""
+
+#: ../../../customisation/injecting.md:12
+msgid "CSS or JS"
+msgstr ""
+
+#: ../../../customisation/injecting.md:14
+msgid ""
+"Read the Docs has an excellent explanation on [how to add custom CSS or JS "
+"files][sphinx-custom-css] to Sphinx-based documentation. No point repeating "
+"information in two places. 😄"
+msgstr ""
+
+#: ../../../customisation/injecting.md:18
+msgid "HTML"
+msgstr ""
+
+#: ../../../customisation/injecting.md:20
+msgid ""
+"This is entirely powered by Sphinx's templating mechanism, which is built "
+"upon {pypi}`Jinja2`."
+msgstr ""
+
+#: ../../../customisation/injecting.md:22
+msgid ""
+"The primary way to do this is to override the content of the Furo's default "
+"templates with your own templates, using [`templates_path`][sphinx-"
+"templates_path]. For more information on how to do so, [Sphinx's templating "
+"documentation][templating]."
+msgstr ""
+
+#: ../../../customisation/injecting.md:26
+msgid ""
+"The expectation is that users who override Furo's templates would also "
+"carefully consider how their documentation looks across various platforms (i."
+"e. not take a \"looks OK on my machine\" approach) and would also be willing "
+"to extend Furo's CSS to make their HTML changes work well."
+msgstr ""
