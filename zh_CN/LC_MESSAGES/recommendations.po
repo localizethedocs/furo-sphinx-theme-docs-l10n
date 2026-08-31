@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../recommendations.md:1
+msgid "Recommendations"
+msgstr ""
+
+#: ../../../recommendations.md:3
+msgid ""
+"This page lists a few opinionated recommendations for Sphinx plugins to use "
+"in your documentation along with Furo. All these plugins work well with Furo-"
+"based Sphinx documentation, but they are not inherently tied to Furo."
+msgstr ""
+
+#: ../../../recommendations.md:5
+msgid "[MyST (Markedly Structured Text)][MyST]"
+msgstr ""
+
+#: ../../../recommendations.md:6
+msgid ""
+"This project enables writing documentation with Markdown in Sphinx[^using-"
+"markdown]. This is achieved by making well-thought-out extensions to the "
+"CommonMark Specification, which make it as capable as reStructuredText. In "
+"case you're wondering if that works well... this documentation is written "
+"using MyST."
+msgstr ""
+
+#: ../../../recommendations.md:8
+msgid ""
+"Markdown is a significantly more popular markup format than "
+"reStructuredText. This means that it's likely that potential contributors/"
+"developers on the project are significantly more familiar with Markdown than "
+"reStructuredText. MyST gives you the best of both worlds -- simplicity and "
+"familiarity of Markdown with the extensibility power of reST."
+msgstr ""
+
+#: ../../../recommendations.md:10
+msgid "[sphinxext-opengraph]"
+msgstr ""
+
+#: ../../../recommendations.md:11
+msgid ""
+"This project automagically adds Open Graph meta tags to your site's "
+"generated HTML. The Open Graph protocol is used by social media websites to "
+"determine how to present a page when a link is posted, and by search engines "
+"as a criterion toward ranking."
+msgstr ""
+
+#: ../../../recommendations.md:13
+msgid "[sphinx-inline-tabs]"
+msgstr ""
+
+#: ../../../recommendations.md:14
+msgid ""
+"This project provides a straightforward way to introduce tabbed content "
+"within your documentation. This is useful for instructions specific to "
+"something about the end user (like their OS, or preferred language, etc). "
+"This is a great way to organise complex bits of documentation without major "
+"trouble."
+msgstr ""
+
+#: ../../../recommendations.md:16
+msgid ""
+"Disclaimer: I am the creator and the primary maintainer of sphinx-inline-"
+"tabs."
+msgstr ""
+
+#: ../../../recommendations.md:18
+msgid "[sphinx-autobuild]"
+msgstr ""
+
+#: ../../../recommendations.md:19
+msgid ""
+"This project provides a live-reloading server, that rebuilds the "
+"documentation and refreshes any open pages automatically when changes are "
+"saved. This enables a much shorter feedback loop which can help boost "
+"productivity when writing documentation. Furo's development workflow is "
+"based on [uses this project](contributing/workflow.md#local-development-"
+"server)."
+msgstr ""
+
+#: ../../../recommendations.md:21
+msgid "Disclaimer: I am the primary maintainer of sphinx-autobuild."
+msgstr ""
+
+#: ../../../recommendations.md:23
+msgid "[sphinx-copybutton]"
+msgstr ""
+
+#: ../../../recommendations.md:24
+msgid ""
+"This project adds a convenient copy button to code blocks. This is a subtle "
+"but effective user experience improvement when there are code snippets that "
+"a user might wish to copy from (examples, sample code etc)."
+msgstr ""
+
+#: ../../../recommendations.md:26
+msgid ""
+"In addition to the above, a shoutout to the [Executable Books] project which "
+"maintains many useful [Sphinx extensions][ebp-extensions] including some "
+"listed above."
+msgstr ""
+
+#: ../../../recommendations.md:28
+msgid ""
+"MyST addresses all the concerns that have been raised when arguing against "
+"[Using Markdown for Technical Documentation][dont-use-markdown], which "
+"really only leaves us with the good bits. :)"
+msgstr ""
