@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/api.rst:8
+msgid "API documentation"
+msgstr ""
+
+#: ../../../kitchen-sink/api.rst:10
+msgid ""
+"Using Sphinx's :any:`sphinx.ext.autodoc` plugin, it is possible to auto-"
+"generate documentation of a Python module."
+msgstr ""
+
+#: ../../../kitchen-sink/api.rst:13
+msgid ""
+"Avoid having in-function-signature type annotations with autodoc, by setting "
+"the following options:"
+msgstr ""
+
+#: ../../../kitchen-sink/api.rst:16
+msgid ""
+"# -- Options for autodoc "
+"----------------------------------------------------\n"
+"# https://www.sphinx-doc.org/en/master/usage/extensions/autodoc."
+"html#configuration\n"
+"\n"
+"# Automatically extract typehints when specified and place them in\n"
+"# descriptions of the relevant function/method.\n"
+"autodoc_typehints = \"description\"\n"
+"\n"
+"# Don't show class signature with the class' name.\n"
+"autodoc_class_signature = \"separated\""
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module:1
+msgid "A demo module included in the docs in order to exercise autodoc."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:1
+msgid "Show a warning to the end user."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:3
+msgid "warnings.showwarning = show_warning"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.annoying_function_name_length_aa:0
+#: furo._demo_module.annoying_function_name_length_aaa:0
+#: ../../../kitchen-sink/api.rst:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:7
+msgid "What you want to tell the user."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:8
+msgid "The type of warning."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:9
+msgid "The file that the warning is for."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:10
+msgid "The line that the warning is for."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:11
+msgid "Where to write the warning."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.show_warning:12
+msgid "line of source code to be included in the warning message"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.get_random_float:0
+#: furo._demo_module.RandomNumberGenerator.get_random_integer:0
+#: furo._demo_module.annoying_function_name_length_aa:0
+#: furo._demo_module.annoying_function_name_length_aaa:0
+#: ../../../kitchen-sink/api.rst:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator:1
+msgid "A random number generator."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.seed:1
+msgid "Get seed for random number generation."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.seed:5
+msgid "Use ``random`` to create the seed."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.seed:8
+msgid "``random`` raises security concerns."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.seed:11
+msgid "``random`` replaced with a random number."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.seed:14
+msgid "https://xkcd.com/221/"
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.get_random_integer:1
+msgid "Return a random integer."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.RandomNumberGenerator.get_random_float:1
+msgid "Return a random float."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.annoying_function_name_length_aa:1
+#: furo._demo_module.annoying_function_name_length_aaa:1
+msgid "Add two numbers as strings."
+msgstr ""
+
+#: ../../../../../../.conda/lib/python3.13/site-packages/furo/_demo_module.py:docstring
+#: of furo._demo_module.annoying_function_name_length_aa:3
+#: furo._demo_module.annoying_function_name_length_aaa:3
+msgid "Because I needed a placeholder function."
+msgstr ""
+
+#: ../../../kitchen-sink/api.rst:32
+msgid "C inline signature"
+msgstr ""
+
+#: ../../../kitchen-sink/api.rst:36
+msgid ""
+"This works :c:type:`my_type`, but I would like to point to a pointer of the "
+"type (:c:expr:`my_type *`)."
+msgstr ""

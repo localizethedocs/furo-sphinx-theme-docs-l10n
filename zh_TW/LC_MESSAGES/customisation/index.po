@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/index.md:1
+msgid "Customisation"
+msgstr ""
+
+#: ../../../customisation/index.md:3
+msgid ""
+"Furo supports customisation of the theme's overall look and feel (through "
+"theme options) as well as a few per-page tweaks."
+msgstr ""
+
+#: ../../../customisation/index.md:5
+msgid ""
+"This section serves to guide the user with customising Furo-based "
+"documentation. This page lists all the theme-specific customisations, as "
+"provided by this theme. Other pages in this section provide guidance for "
+"making specific customisations when using Sphinx with Furo."
+msgstr ""
+
+#: ../../../customisation/index.md:23
+msgid "Theme options"
+msgstr ""
+
+#: ../../../customisation/index.md:25
+msgid ""
+"[`html_theme_options`][sphinx-html_theme_options] in `conf.py` is used for "
+"customisations that affect the entire documentation. This is for stuff like "
+"fonts and colors. While this theme inherits some options from the built-in "
+"`basic` Sphinx theme, only the ones documented here are supported."
+msgstr ""
+
+#: ../../../customisation/index.md:29
+msgid "`light_css_variables` / `dark_css_variables`"
+msgstr ""
+
+#: ../../../customisation/index.md:36
+msgid ""
+"Support for dark mode involved replacing `css_variables` with "
+"`light_css_variables` / `dark_css_variables`."
+msgstr ""
+
+#: ../../../customisation/index.md:39
+msgid ""
+"Furo makes extensive use of [CSS variables][css-variables]. These can be "
+"overridden by the user and are used for stylizing nearly all elements of the "
+"documentation. {doc}`colors` contains important details of how these "
+"variables are used."
+msgstr ""
+
+#: ../../../customisation/index.md:41
+msgid ""
+"Setting `*_css_variables` is the recommended mechanism to override Furo's "
+"default values for these variables."
+msgstr ""
+
+#: ../../../customisation/index.md:43
+msgid ""
+"html_theme_options = {\n"
+"    \"light_css_variables\": {\n"
+"        \"color-brand-primary\": \"red\",\n"
+"        \"color-brand-content\": \"#CC3333\",\n"
+"        \"color-admonition-background\": \"orange\",\n"
+"    },\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/index.md:54
+msgid ""
+"Typos in the `*_css_variables` dictionary are silently ignored, and do not "
+"raise any errors or warnings. Double check that your spellings and values "
+"are correct and valid."
+msgstr ""
+
+#: ../../../customisation/index.md:59
+msgid "`sidebar_hide_name`"
+msgstr ""
+
+#: ../../../customisation/index.md:65
+msgid ""
+"Controls whether you see the project's name in the sidebar of the "
+"documentation. This is useful when you only want to show your "
+"documentation's logo in the sidebar. The default is `False`."
+msgstr ""
+
+#: ../../../customisation/index.md:67
+msgid ""
+"html_theme_options = {\n"
+"    \"sidebar_hide_name\": True,\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/index.md:73
+msgid "`navigation_with_keys`"
+msgstr ""
+
+#: ../../../customisation/index.md:79
+msgid ""
+"Controls whether the user can navigate the documentation using the "
+"keyboard’s left and right arrows. The default is `False`."
+msgstr ""
+
+#: ../../../customisation/index.md:81
+msgid ""
+"html_theme_options = {\n"
+"    \"navigation_with_keys\": True,\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/index.md:89
+msgid "`top_of_page_button`"
+msgstr ""
+
+#: ../../../customisation/index.md:96
+msgid ""
+"This will be removed after 2024-11-01. Use `top_of_page_buttons` instead."
+msgstr ""
+
+#: ../../../customisation/index.md:99
+msgid ""
+"Controls which button is shown on the top of the page. The only supported "
+"values are `\"edit\"` (the default) and `None`."
+msgstr ""
+
+#: ../../../customisation/index.md:101
+msgid ""
+"html_theme_options = {\n"
+"    \"top_of_page_button\": \"edit\",\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/index.md:109
+msgid "`top_of_page_buttons`"
+msgstr ""
+
+#: ../../../customisation/index.md:115
+msgid ""
+"Controls which buttons are shown on the top of the page. This is a list "
+"which can be empty or contain one-or-more of the following values:"
+msgstr ""
+
+#: ../../../customisation/index.md:117
+msgid "`\"edit\"`"
+msgstr ""
+
+#: ../../../customisation/index.md:118
+msgid "`\"view\"`"
+msgstr ""
+
+#: ../../../customisation/index.md:120
+msgid ""
+"html_theme_options = {\n"
+"    \"top_of_page_buttons\": [\"view\", \"edit\"],\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/index.md:126
+msgid "`announcement`"
+msgstr ""
+
+#: ../../../customisation/index.md:132
+msgid ""
+"Add a site-wide announcement, to the top of every page when set. See {doc}`./"
+"announcement` for the details."
+msgstr ""
+
+#: ../../../customisation/index.md:134
+msgid "`footer_icons`"
+msgstr ""
+
+#: ../../../customisation/index.md:140
+msgid ""
+"Changes the icons presented in the site footer. See {doc}`./footer` for the "
+"details."
+msgstr ""
+
+#: ../../../customisation/index.md:142
+msgid "Page specific tweaks"
+msgstr ""
+
+#: ../../../customisation/index.md:144
+msgid ""
+"[File-Wide metadata][sphinx-file-wide-metadata] is used for per-page "
+"customisation, primarily for controlling which UI elements are presented."
+msgstr ""
+
+#: ../../../customisation/index.md:146
+msgid "`hide-toc`"
+msgstr ""
+
+#: ../../../customisation/index.md:152
+msgid ""
+"The \"Contents\" sidebar is automatically hidden for any pages that don’t "
+"have any inner headings. It is possible to hide it even when a page has "
+"inner headings, by setting `hide-toc` at the page level. See {doc}`./toc` "
+"for an example."
+msgstr ""
+
+#: ../../../customisation/index.md:154
+msgid "Custom CSS files"
+msgstr ""
+
+#: ../../../customisation/index.md:156
+msgid ""
+"If you want more control than what is provided by the above theme options, "
+"see {doc}`injecting`."
+msgstr ""
