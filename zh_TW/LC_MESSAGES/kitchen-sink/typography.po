@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/typography.rst:8
+msgid "Typography"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:10
+msgid ""
+"This is quite important, for a website where the majority of the content is "
+"going to be prose."
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:12
+msgid ""
+"Notice the font family being used for the prose, as well as the font family "
+"being used for the heading. Think about the spacing between the lines, as "
+"well as the spacing between various paragraphs. Also keep the font weight in "
+"mind, and consider if/how you want antialiasing and font-smoothing to work."
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:14
+msgid ""
+"Multiple paragraphs are a common occurance, because you often need more than "
+"a single paragraph to describe a thing. The rest of this paragraph is gonna "
+"be the famous lorem-ipsum: Lorem ipsum **dolor** sit amet consectetur "
+"adipisicing elit. Accusamus, sunt voluptatum tenetur libero nulla esse "
+"veritatis accusantium earum commodi hic voluptatem officia culpa optio "
+"atque. Quaerat sed quibusdam ratione nam."
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:17
+msgid "Headings"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:19
+msgid ""
+"This next bit will explore how the various headings look. Think about how "
+"the content separation should work, and how the various headings should "
+"interact with the main content."
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:22
+msgid "Heading 3"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:25
+msgid "Heading 4"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:28
+msgid "Heading 5"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:31
+msgid "Heading 6"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:34
+msgid "Heading 2 with content"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:36
+#: ../../../kitchen-sink/typography.rst:43
+#: ../../../kitchen-sink/typography.rst:50
+#: ../../../kitchen-sink/typography.rst:57
+#: ../../../kitchen-sink/typography.rst:64
+msgid "Lorem ipsum **dolor** sit amet consectetur adipisicing elit."
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:38
+#: ../../../kitchen-sink/typography.rst:45
+#: ../../../kitchen-sink/typography.rst:52
+#: ../../../kitchen-sink/typography.rst:59
+#: ../../../kitchen-sink/typography.rst:66
+msgid ""
+"Accusamus, sunt voluptatum tenetur libero nulla esse veritatis accusantium "
+"earum commodi hic voluptatem officia culpa optio atque. Quaerat sed "
+"quibusdam ratione nam."
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:41
+msgid "Heading 3 with content"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:48
+msgid "Heading 4 with content"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:55
+msgid "Heading 5 with content"
+msgstr ""
+
+#: ../../../kitchen-sink/typography.rst:62
+msgid "Heading 6 with content"
+msgstr ""

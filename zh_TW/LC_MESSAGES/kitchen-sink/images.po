@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/images.rst:8
+msgid "Images & Figures"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:11
+msgid "Images"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:13
+msgid "An image:"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:19
+msgid "A clickable image:"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:31
+msgid ""
+"This is a lot of text to go along with a right-aligned image, that is "
+"helping make this content feel less linear. It is important to have such a "
+"body of text, since the image is meant to be \"floated\" to the right, which "
+"would interfere with the rest of the document otherwise."
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:36 ../../../kitchen-sink/images.rst:41
+#: ../../../kitchen-sink/images.rst:56 ../../../kitchen-sink/images.rst:61
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sapiente "
+"veritatis doloribus accusantium molestiae modi recusandae excepturi facere, "
+"corrupti expedita sit nihil temporibus eius sequi animi, illo libero labore "
+"fuga."
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:51
+msgid ""
+"This is a lot of text to go along with a left-aligned image, that is helping "
+"make this content feel less linear. It is important to have such a body of "
+"text, since the image is meant to be \"floated\" to the right, which would "
+"interfere with the rest of the document otherwise."
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:67
+msgid "Figures"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:69
+msgid "reStructuredText, the markup syntax"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:72
+msgid "A figure is an image with a caption and/or a legend:"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:75
+msgid "re"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:75
+msgid "Revised, revisited, based on 're' module."
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:77
+msgid "Structured"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:77
+msgid "Structure-enhanced text, structuredtext."
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:79
+msgid "Text"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:79
+msgid "Well it is, isn't it?"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:82
+msgid "This paragraph is also part of the legend."
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:84
+msgid "A figure directive with center alignment"
+msgstr ""
+
+#: ../../../kitchen-sink/images.rst:89
+msgid "This caption should be centered."
+msgstr ""
