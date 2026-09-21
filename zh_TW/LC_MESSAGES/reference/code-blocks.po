@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/code-blocks.md:1
+msgid "Code Blocks"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:3
+msgid ""
+"Code blocks and examples are an essential part of technical project "
+"documentation. Sphinx provides syntax highlighting for these out-of-the-box, "
+"through Pygments."
+msgstr ""
+
+#: ../../../reference/code-blocks.md:8
+msgid ""
+"Code blocks in reStructuredText can be created in various ways::\n"
+"\n"
+"    Indenting content by 4 spaces, after a line ends with \"::\".\n"
+"    This will have default syntax highlighting (highlighting a few words and "
+"\"strings\").\n"
+"\n"
+".. code::\n"
+"\n"
+"    You can also use the code directive, or an alias: code-block, "
+"sourcecode.\n"
+"    This will have default syntax highlighting (highlighting a few words and "
+"\"strings\").\n"
+"\n"
+".. code:: python\n"
+"\n"
+"    print(\"And with the directive syntax, you can have syntax highlighting."
+"\")\n"
+"\n"
+".. code:: none\n"
+"\n"
+"    print(\"Or disable all syntax highlighting.\")\n"
+"\n"
+"\n"
+"There's a lot more forms of \"blocks\" in reStructuredText that can be used, "
+"as\n"
+"seen in https://docutils.sourceforge.io/docs/ref/rst/restructuredtext."
+"html#literal-blocks."
+msgstr ""
+
+#: ../../../reference/code-blocks.md:34
+msgid "Code blocks in reStructuredText can be created in various ways::"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:36
+msgid ""
+"Indenting content by 4 spaces, after a line ends with \"::\".\n"
+"This will have default syntax highlighting (highlighting a few words and "
+"\"strings\")."
+msgstr ""
+
+#: ../../../reference/code-blocks.md:39
+msgid ""
+"You can also use the code directive, or an alias: code-block, sourcecode.\n"
+"This will have default syntax highlighting (highlighting a few words and "
+"\"strings\")."
+msgstr ""
+
+#: ../../../reference/code-blocks.md:44
+msgid ""
+"print(\"And with the directive syntax, you can have syntax highlighting.\")"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:48
+msgid "print(\"Or disable all syntax highlighting.\")"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:53
+msgid ""
+"There's a lot more forms of \"blocks\" in reStructuredText that can be used, "
+"as seen in https://docutils.sourceforge.io/docs/ref/rst/restructuredtext."
+"html#literal-blocks."
+msgstr ""
+
+#: ../../../reference/code-blocks.md:58
+msgid ""
+"Code blocks in Markdown can be created in various ways.\n"
+"\n"
+"    Indenting content by 4 spaces.\n"
+"    This will not have any syntax highlighting.\n"
+"\n"
+"\n"
+"```\n"
+"Wrapping text with triple backticks also works.\n"
+"This will have default syntax highlighting (highlighting a few words and "
+"\"strings\").\n"
+"```\n"
+"\n"
+"```python\n"
+"print(\"And with the triple backticks syntax, you can have syntax "
+"highlighting.\")\n"
+"```\n"
+"\n"
+"```none\n"
+"print(\"Or disable all syntax highlighting.\")\n"
+"```\n"
+"\n"
+"There's a lot of power hidden underneath the triple backticks in MyST "
+"Markdown,\n"
+"as seen in <https://myst-parser.readthedocs.io/en/latest/syntax/roles-and-"
+"directives.html>.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:82
+msgid "Code blocks in Markdown can be created in various ways."
+msgstr ""
+
+#: ../../../reference/code-blocks.md:84
+msgid ""
+"Indenting content by 4 spaces.\n"
+"This will not have any syntax highlighting.\n"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:88
+msgid ""
+"Wrapping text with triple backticks also works.\n"
+"This will have default syntax highlighting (highlighting a few words and "
+"\"strings\").\n"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:93
+msgid ""
+"print(\"And with the triple backticks syntax, you can have syntax "
+"highlighting.\")\n"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:97
+msgid "print(\"Or disable all syntax highlighting.\")\n"
+msgstr ""
+
+#: ../../../reference/code-blocks.md:101
+msgid ""
+"There's a lot of power hidden underneath the triple backticks in MyST "
+"Markdown, as seen in <https://myst-parser.readthedocs.io/en/latest/syntax/"
+"roles-and-directives.html>."
+msgstr ""
