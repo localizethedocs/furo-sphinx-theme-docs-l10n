@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: furo latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"POT-Creation-Date: 2026-10-05 17:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -426,7 +427,9 @@ msgstr ""
 
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring
 #: of urllib3.util.Retry.RETRY_AFTER_STATUS_CODES:1
-msgid "Default status codes to be used for ``status_forcelist``"
+msgid ""
+"Default status codes that trigger a retry when a Retry-After header is "
+"present and ``respect_retry_after_header`` is enabled."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring
