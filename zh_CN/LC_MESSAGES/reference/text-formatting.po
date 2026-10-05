@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/text-formatting.md:1
+msgid "Text Formatting"
+msgstr ""
+
+#: ../../../reference/text-formatting.md:3
+msgid ""
+"Text formatting is an important aspect of written text. Sphinx provides "
+"support for several ways to apply specific formatting."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:8
+msgid ""
+"Content can have inline markup like *emphasis*, **strong emphasis**,\n"
+"``inline literals``, :sub:`subscript`, :sup:`superscript` and so much more.\n"
+"Providing a reference to :pep:`8` is straightforward. You can also include\n"
+"abbreviations like :abbr:`HTML (Hyper Text Markup Language)`.\n"
+"\n"
+"    This is blockquoted text.\n"
+"\n"
+"It is possible to have multiple paragraphs of text, which get separated\n"
+"from each other visually. When stronger visual separation is desired, a\n"
+"horizontal separator can be used (4 or more punctuation characters on a "
+"line).\n"
+"\n"
+"----\n"
+"\n"
+"This is written in reStructuredText."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:27
+msgid ""
+"Content can have inline markup like *emphasis*, **strong emphasis**, "
+"``inline literals``, :sub:`subscript`, :sup:`superscript` and so much more. "
+"Providing a reference to :pep:`8` is straightforward. You can also include "
+"abbreviations like :abbr:`HTML (Hyper Text Markup Language)`."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:32
+#: ../../../reference/text-formatting.md:66
+msgid "This is blockquoted text."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:34
+msgid ""
+"It is possible to have multiple paragraphs of text, which get separated from "
+"each other visually. When stronger visual separation is desired, a "
+"horizontal separator can be used (4 or more punctuation characters on a "
+"line)."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:40
+msgid "This is written in reStructuredText."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:44
+msgid ""
+"Content can have inline markup like *emphasis*, **strong emphasis**,\n"
+"`inline literals`, {sub}`subscript`, {sup}`superscript` and so much more.\n"
+"Providing a reference to {pep}`8` is straightforward. You can also include\n"
+"abbreviations like {abbr}`HTML (Hyper Text Markup Language)`.\n"
+"\n"
+"> This is blockquoted text.\n"
+"\n"
+"It is possible to have multiple paragraphs of text, which get separated\n"
+"from each other visually. When stronger visual separation is desired, a\n"
+"horizontal separator can be used (3 or more punctuation characters on a "
+"line).\n"
+"\n"
+"---\n"
+"\n"
+"This is written in Markdown.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/text-formatting.md:61
+msgid ""
+"Content can have inline markup like *emphasis*, **strong emphasis**, `inline "
+"literals`, {sub}`subscript`, {sup}`superscript` and so much more. Providing "
+"a reference to {pep}`8` is straightforward. You can also include "
+"abbreviations like {abbr}`HTML (Hyper Text Markup Language)`."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:68
+msgid ""
+"It is possible to have multiple paragraphs of text, which get separated from "
+"each other visually. When stronger visual separation is desired, a "
+"horizontal separator can be used (3 or more punctuation characters on a "
+"line)."
+msgstr ""
+
+#: ../../../reference/text-formatting.md:74
+msgid "This is written in Markdown."
+msgstr ""
