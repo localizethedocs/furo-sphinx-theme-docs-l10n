@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/tabs.md:1
+msgid "Tabs"
+msgstr ""
+
+#: ../../../reference/tabs.md:3
+msgid ""
+"Tabs are good way to organize content, where the reader has choice they can "
+"make (usually based on their environment)."
+msgstr ""
+
+#: ../../../reference/tabs.md:5
+msgid ""
+"While Sphinx does not provide tabs out-of-the-box, it is achievable by using "
+"extensions with Sphinx. Furo works well with the following extensions."
+msgstr ""
+
+#: ../../../reference/tabs.md:7
+msgid "[sphinx-inline-tabs]"
+msgstr ""
+
+#: ../../../reference/tabs.md:9
+msgid ""
+"This is a small package that provides one thing: good-looking tabs that work."
+msgstr ""
+
+#: ../../../reference/tabs.md:14
+msgid ""
+".. tab:: One\n"
+"\n"
+"    First.\n"
+"\n"
+".. tab:: Two\n"
+"\n"
+"    Second."
+msgstr ""
+
+#: ../../../reference/tabs.md:28 ../../../reference/tabs.md:47
+msgid "First."
+msgstr ""
+
+#: ../../../reference/tabs.md:32 ../../../reference/tabs.md:51
+msgid "Second."
+msgstr ""
+
+#: ../../../reference/tabs.md:36
+msgid ""
+"```{tab} One\n"
+"First.\n"
+"```\n"
+"\n"
+"```{tab} Two\n"
+"Second.\n"
+"```\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/tabs.md:33
+msgid "[sphinx-design]"
+msgstr ""
+
+#: ../../../reference/tabs.md:35
+msgid ""
+"A wide ranging extension, providing many reusable components for site "
+"content, including tabs."
+msgstr ""
+
+#: ../../../reference/tabs.md:40
+msgid ""
+".. tab-set::\n"
+"\n"
+"    .. tab-item:: Label1\n"
+"\n"
+"        reStructuredText 1\n"
+"\n"
+"    .. tab-item:: Label2\n"
+"\n"
+"        reStructuredText 2"
+msgstr ""
+
+#: ../../../reference/tabs.md:0
+msgid "Label1"
+msgstr ""
+
+#: ../../../reference/tabs.md:58
+msgid "reStructuredText 1"
+msgstr ""
+
+#: ../../../reference/tabs.md:0
+msgid "Label2"
+msgstr ""
+
+#: ../../../reference/tabs.md:62
+msgid "reStructuredText 2"
+msgstr ""
+
+#: ../../../reference/tabs.md:66
+msgid ""
+"````{tab-set}\n"
+"```{tab-item} Label1\n"
+"Markdown 1\n"
+"```\n"
+"\n"
+"```{tab-item} Label2\n"
+"Markdown 2\n"
+"```\n"
+"````\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/tabs.md:80
+msgid "Markdown 1"
+msgstr ""
+
+#: ../../../reference/tabs.md:84
+msgid "Markdown 2"
+msgstr ""
