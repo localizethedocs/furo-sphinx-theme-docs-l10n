@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/colors.md:1
+msgid "Changing colors"
+msgstr ""
+
+#: ../../../customisation/colors.md:7
+msgid ""
+"Furo allows customising colors to fit your brand's identity, by using CSS "
+"variables. These can be declared directly in [`html_theme_options`][sphinx-"
+"html_theme_options], in your `conf.py`."
+msgstr ""
+
+#: ../../../customisation/colors.md:9
+msgid "How light and dark mode work"
+msgstr ""
+
+#: ../../../customisation/colors.md:11
+msgid ""
+"Furo is in light mode by default, switching to the dark mode when requested "
+"by the user's browser (through `prefers-color-scheme: dark`)."
+msgstr ""
+
+#: ../../../customisation/colors.md:13
+msgid ""
+"As a consequence of this design, the dark mode inherits the variable "
+"definitions from the light mode, only overriding specific values to adapt "
+"the theme. While the mechanism for switching between light/dark mode is not "
+"configurable, the exact CSS variable definitions used in this process can be "
+"configured."
+msgstr ""
+
+#: ../../../customisation/colors.md:15
+msgid ""
+"It is possible to use different content for light and dark mode, by setting "
+"`only-dark` and `only-light` classes on the content. This is the "
+"[recommended approach](light-dark-images) for handling images with "
+"backgrounds."
+msgstr ""
+
+#: ../../../customisation/colors.md:19
+msgid "Using your own colors"
+msgstr ""
+
+#: ../../../customisation/colors.md:21
+msgid ""
+"Furo allows defining [CSS variables that overrides its default values](css-"
+"variables). The exact variable names to use can be found in Furo's source "
+"code [here](https://github.com/pradyunsg/furo/tree/main/src/furo/assets/"
+"styles/variables)."
+msgstr ""
+
+#: ../../../customisation/colors.md:23
+msgid ""
+"This mechanism allows configuring nearly every facet of Furo's design, "
+"including spacing between various items and the colors of nearly every "
+"component."
+msgstr ""
+
+#: ../../../customisation/colors.md:25
+msgid "Example"
+msgstr ""
+
+#: ../../../customisation/colors.md:26
+msgid ""
+"Changing Furo's blue accent (used for stylising links, sidebar's content "
+"etc) to a purple one:"
+msgstr ""
+
+#: ../../../customisation/colors.md:28
+msgid ""
+"html_theme_options = {\n"
+"    \"light_css_variables\": {\n"
+"        \"color-brand-primary\": \"#7C4DFF\",\n"
+"        \"color-brand-content\": \"#7C4DFF\",\n"
+"    },\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/colors.md:38
+msgid "Code block styling"
+msgstr ""
+
+#: ../../../customisation/colors.md:40
+msgid ""
+"Furo does not directly handle highlighting of the code blocks. This is done "
+"by Sphinx, and is configurable using [`pygments_style`][sphinx-"
+"pygments_style] and `pygments_dark_style` in `conf.py`."
+msgstr ""
+
+#: ../../../customisation/colors.md:42
+msgid ""
+"pygments_style = \"sphinx\"\n"
+"pygments_dark_style = \"monokai\"\n"
+msgstr ""
+
+#: ../../../customisation/colors.md:48
+msgid "`pygments_dark_style` is Furo-specific at this time."
+msgstr ""
