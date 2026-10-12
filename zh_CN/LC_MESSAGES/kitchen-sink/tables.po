@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/tables.rst:8
+msgid "Tables"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:11
+msgid "Grid Tables"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:13
+msgid "Here's a grid table followed by a simple table:"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:16
+msgid "Header row, column 1 (header rows optional)"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:16 ../../../kitchen-sink/tables.rst:46
+#: ../../../kitchen-sink/tables.rst:87
+msgid "Header 2"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:16 ../../../kitchen-sink/tables.rst:46
+msgid "Header 3"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:16
+msgid "Header 4"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:19
+msgid "body row 1, column 1"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:19 ../../../kitchen-sink/tables.rst:48
+#: ../../../kitchen-sink/tables.rst:50 ../../../kitchen-sink/tables.rst:52
+#: ../../../kitchen-sink/tables.rst:54
+msgid "column 2"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:19 ../../../kitchen-sink/tables.rst:48
+#: ../../../kitchen-sink/tables.rst:50 ../../../kitchen-sink/tables.rst:52
+#: ../../../kitchen-sink/tables.rst:54
+msgid "column 3"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:19
+msgid "column 4"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:21
+msgid "body row 2"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:21
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:23
+msgid "body row 3"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:23
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:23
+msgid "Table cells"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:24
+msgid "contain"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:25
+msgid "body elements."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:25
+msgid "body row 4"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:27
+msgid "body row 5"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:27
+msgid "Cells may also be empty: ``-->``"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:32
+msgid "Inputs"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:32
+msgid "Output"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:34
+msgid "A"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:34
+msgid "B"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:34
+msgid "A or B"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:36 ../../../kitchen-sink/tables.rst:37
+#: ../../../kitchen-sink/tables.rst:38
+msgid "False"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:37 ../../../kitchen-sink/tables.rst:38
+#: ../../../kitchen-sink/tables.rst:39
+msgid "True"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:43
+msgid "Giant Tables"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:46 ../../../kitchen-sink/tables.rst:86
+msgid "Header 1"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:48 ../../../kitchen-sink/tables.rst:50
+#: ../../../kitchen-sink/tables.rst:52 ../../../kitchen-sink/tables.rst:54
+msgid "body row 1"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:58
+msgid "Table containing code"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:61
+msgid "Version"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:61
+msgid "Installing"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:63
+msgid "Pradyun's pip fork and installer"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:63
+msgid ""
+"pip install \"pip @ git+https://github.com/pradyunsg/pip#20.3.3\" "
+"\"installer @ git+https://github.com/pradyunsg/installer\""
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:69
+msgid "This is only reasonable if you're Pradyun."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:71
+msgid "PyPI"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:71
+msgid "pip install pip installer"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:78
+msgid "List Tables"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:80
+msgid "List tables can have captions like this one."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:85
+msgid "List table"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:88
+msgid ""
+"Header 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam "
+"sit amet mauris arcu."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:89
+msgid "Stub Row 1"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:90
+msgid "Row 1"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:91 ../../../kitchen-sink/tables.rst:95
+#: ../../../kitchen-sink/tables.rst:99
+msgid "Column 2"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:92 ../../../kitchen-sink/tables.rst:96
+#: ../../../kitchen-sink/tables.rst:100
+msgid ""
+"Column 3 long. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam "
+"sit amet mauris arcu."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:93
+msgid "Stub Row 2"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:94
+msgid "Row 2"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:97
+msgid "Stub Row 3"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:98
+msgid "Row 3"
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:102
+msgid "This is a list table with images in it."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:106
+msgid "This is a short caption for a figure."
+msgstr ""
+
+#: ../../../kitchen-sink/tables.rst:110
+msgid ""
+"This is a long caption for a figure. Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit. Donec porttitor dolor in odio posuere, vitae ornare libero "
+"mattis. In lobortis justo vestibulum nibh aliquet, non."
+msgstr ""

@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/top-of-page-buttons.md:1
+msgid "Changing buttons on page"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:4
+msgid "Support for \"edit this page\" link."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:8
+msgid "Support for \"view this page\" link."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:11
+msgid ""
+"Furo can add buttons to each document that links visitors to the document's "
+"sources on the repository's source control system."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:13
+msgid ""
+"This feature is inherited from [sphinx-basic-ng](https://sphinx-basic-ng."
+"readthedocs.io/en/latest/), specifically the [`view-this-page.html`](https://"
+"sphinx-basic-ng.readthedocs.io/en/latest/usage/components/view-this-page/) "
+"and [`edit-this-page`](https://sphinx-basic-ng.readthedocs.io/en/latest/"
+"usage/components/edit-this-page/) components."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:15
+msgid "With popular VCS hosts"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:17
+msgid ""
+"Provide the relevant VCS variables, by setting the following keys in "
+"[`html_theme_options`][sphinx-html_theme_options]:"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:19
+msgid ""
+"html_theme_options = {\n"
+"    \"source_repository\": \"https://github.com/pradyunsg/furo/\",\n"
+"    \"source_branch\": \"main\",\n"
+"    \"source_directory\": \"docs/\",\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:27
+msgid ""
+"This model supports github.com, gitlab.com and bitbucket.org as domain names "
+"for the `source_repository` key."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:29
+msgid "With arbitrary URLs"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:32
+msgid "`source_edit_link`"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:36
+msgid "`source_view_link`"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:39
+msgid ""
+"Use arbitrary URLs for the view/edit buttons, by setting the following keys "
+"in [`html_theme_options`][sphinx-html_theme_options]:"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:41
+msgid ""
+"html_theme_options = {\n"
+"    \"source_edit_link\": \"https://my.awesome.host.example.com/awesome/"
+"project/edit/{filename}\",\n"
+"    \"source_view_link\": \"https://my.awesome.host.example.com/awesome/"
+"project/view/{filename}\",\n"
+"}\n"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:48
+msgid ""
+"The `{filename}` component will be replaced with the full path to the file, "
+"as known from the base of the documentation directory."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:51
+msgid ""
+"Furo does not enforce that the `source_edit_link` / `source_view_link` "
+"contain `{filename}` or any sort of correctness check on these URLs. Make "
+"sure to manually confirm that the link works."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:54
+msgid "Linking to copied sources"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:56
+msgid ""
+"If [`html_show_sourcelink`](https://www.sphinx-doc.org/en/master/usage/"
+"configuration.html#confval-html_show_sourcelink) and [`html_copy_source`]"
+"(https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-"
+"html_copy_source) are `True` (which are the defaults), and the documentation "
+"does not configure any of the above variables, the view button will link to "
+"the raw sources copied in by Sphinx."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:58
+msgid "Read the Docs support"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:65
+msgid "This feature is only available for projects hosted on GitHub."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:68
+msgid ""
+"Furo has built-in support for inferring details from Read the Docs' "
+"environment for GitHub projects and enabling these buttons."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:70
+msgid ""
+"For such projects, Furo will try to automatically infer the source "
+"repository, branch, and directory from the Read the Docs build environment "
+"unless the above configuration variable are set."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:72
+msgid "Edit button on Read the Docs"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:74
+msgid "The _edit_ button will link to GitHub's edit view for the document."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:76
+msgid "View button on Read the Docs"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:78
+msgid ""
+"The _view_ button will link to the raw sources copied in by Sphinx, if "
+"available, [as noted above](#linking-to-copied-sources). If raw sources are "
+"not copied, it will link to GitHub's plain view for the document."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:80
+msgid ""
+"If you do not want to link to copied sources, you can set the following in "
+"the `conf.py`:"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:82
+msgid ""
+"html_copy_source = False\n"
+"html_show_sourcelink = False\n"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:87
+msgid "Disabling on Read the Docs"
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:94
+msgid "`top_of_page_buttons` replaces the singular `top_of_page_button`."
+msgstr ""
+
+#: ../../../customisation/top-of-page-buttons.md:97
+msgid ""
+"If you wish to disable these default buttons, use {ref}`top_of_page_buttons` "
+"and set it to `[]`."
+msgstr ""
