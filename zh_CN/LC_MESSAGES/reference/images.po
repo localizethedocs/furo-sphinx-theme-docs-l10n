@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/images.md:1
+msgid "Images"
+msgstr ""
+
+#: ../../../reference/images.md:3
+msgid ""
+"Images can be a great supplement to technical documentation text. Sphinx "
+"provides control for their alignment in the content, as well as the ability "
+"to add captions."
+msgstr ""
+
+#: ../../../reference/images.md:5
+msgid "Basic Usage"
+msgstr ""
+
+#: ../../../reference/images.md:10
+msgid ""
+".. image:: https://picsum.photos/id/237/200/200\n"
+"\n"
+"This is from reStructuredText."
+msgstr ""
+
+#: ../../../reference/images.md:20 ../../../reference/images.md:38
+#: ../../../reference/images.md:56 ../../../reference/images.md:116
+msgid "This is from reStructuredText."
+msgstr ""
+
+#: ../../../reference/images.md:24
+msgid ""
+"![](https://picsum.photos/id/237/200/200)\n"
+"\n"
+"This is from Markdown.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/images.md:30
+msgid "![](https://picsum.photos/id/237/200/200)"
+msgstr ""
+
+#: ../../../reference/images.md:32 ../../../reference/images.md:54
+#: ../../../reference/images.md:72 ../../../reference/images.md:164
+msgid "This is from Markdown."
+msgstr ""
+
+#: ../../../reference/images.md:19
+msgid "Alignment"
+msgstr ""
+
+#: ../../../reference/images.md:24
+msgid ""
+".. image:: https://picsum.photos/id/237/200/200\n"
+"   :align: center\n"
+"\n"
+"\n"
+"This is from reStructuredText."
+msgstr ""
+
+#: ../../../reference/images.md:42
+msgid ""
+"```{image} https://picsum.photos/id/237/200/200\n"
+":align: center\n"
+"```\n"
+"\n"
+"This is from Markdown.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/images.md:37
+msgid "Captions"
+msgstr ""
+
+#: ../../../reference/images.md:42
+msgid ""
+".. figure:: https://picsum.photos/id/237/200/200\n"
+"\n"
+"    This is a captioned image, which needs the \"figure\" directive.\n"
+"\n"
+"This is from reStructuredText."
+msgstr ""
+
+#: ../../../reference/images.md:54 ../../../reference/images.md:69
+msgid "This is a captioned image, which needs the \"figure\" directive."
+msgstr ""
+
+#: ../../../reference/images.md:60
+msgid ""
+"```{figure} https://picsum.photos/id/237/200/200\n"
+"This is a captioned image, which needs the \"figure\" directive.\n"
+"```\n"
+"\n"
+"This is from Markdown.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/images.md:58
+msgid "Different images for dark/light mode"
+msgstr ""
+
+#: ../../../reference/images.md:60
+msgid ""
+"Furo supports [light mode and dark mode](../customisation/colors) colours "
+"out-of-the-box. However, certain images do not work well against certain "
+"backgrounds (eg: if the image has a white background)."
+msgstr ""
+
+#: ../../../reference/images.md:64
+msgid ""
+"You can use the `only-light` and `only-dark` classes, to show different "
+"images based on the currently active colour scheme."
+msgstr ""
+
+#: ../../../reference/images.md:70
+msgid ""
+".. image:: https://picsum.photos/id/237/200/200\n"
+"   :align: center\n"
+"   :class: only-light\n"
+"\n"
+"\n"
+".. image:: https://picsum.photos/id/1025/200/200\n"
+"   :align: center\n"
+"   :class: only-dark\n"
+"\n"
+"\n"
+".. figure:: https://picsum.photos/id/237/200/200\n"
+"   :align: center\n"
+"   :figclass: only-light\n"
+"\n"
+"\n"
+".. figure:: https://picsum.photos/id/1025/200/200\n"
+"   :align: center\n"
+"   :figclass: only-dark\n"
+"\n"
+"\n"
+"This is from reStructuredText."
+msgstr ""
+
+#: ../../../reference/images.md:120
+msgid ""
+"```{image} https://picsum.photos/id/237/200/200\n"
+":align: center\n"
+":class: only-light\n"
+"```\n"
+"\n"
+"```{image} https://picsum.photos/id/1025/200/200\n"
+":align: center\n"
+":class: only-dark\n"
+"```\n"
+"\n"
+"```{figure} https://picsum.photos/id/237/200/200\n"
+":align: center\n"
+":figclass: only-light\n"
+"```\n"
+"\n"
+"```{figure} https://picsum.photos/id/1025/200/200\n"
+":align: center\n"
+":figclass: only-dark\n"
+"```\n"
+"\n"
+"This is from Markdown.\n"
+"\n"
+msgstr ""
