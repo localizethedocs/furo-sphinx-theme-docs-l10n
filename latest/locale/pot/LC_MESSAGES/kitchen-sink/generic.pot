@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: furo latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"POT-Creation-Date: 2026-10-26 15:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,8 +41,9 @@ msgstr ""
 
 #: ../../../kitchen-sink/generic.rst:24
 msgid ""
-"It is also possible to use explicit roles to do things like a :sub:"
-"`subscript`, a :sup:`superscript`, :emphasis:`emphasis`, :strong:`strong`, "
+"It is also possible to use explicit roles to do things like "
+"a :sub:`subscript`, "
+"a :sup:`superscript`, :emphasis:`emphasis`, :strong:`strong`, "
 "and :literal:`literal`."
 msgstr ""
 
@@ -73,8 +75,8 @@ msgstr ""
 
 #: ../../../kitchen-sink/generic.rst:42
 msgid ""
-"It is also possible to link to documented items, such as :class:`api_sample."
-"RandomNumberGenerator`."
+"It is also possible to link to documented items, such "
+"as :class:`api_sample.RandomNumberGenerator`."
 msgstr ""
 
 #: ../../../kitchen-sink/generic.rst:46
@@ -84,8 +86,8 @@ msgstr ""
 #: ../../../kitchen-sink/generic.rst:48
 msgid ""
 "The default role for \"interpreted text\" (AKA single backticks) is `Title "
-"Reference`. There are other reference syntaxes as well: :PEP:`287` and :RFC:"
-"`2822`."
+"Reference`. There are other reference syntaxes as well: :PEP:`287` "
+"and :RFC:`2822`."
 msgstr ""
 
 #: ../../../kitchen-sink/generic.rst:52
@@ -134,8 +136,8 @@ msgid ""
 "is an example of --inline-literal --text, --including some-- strangely--"
 "hyphenated-words.  Adjust-the-width-of-your-browser-window to see how the "
 "text is wrapped.  -- ---- --------  Now note    the spacing    between "
-"the    words of    this sentence    (words should    be grouped    in pairs)."
-"``"
+"the    words of    this sentence    (words should    be grouped    in "
+"pairs).``"
 msgstr ""
 
 #: ../../../kitchen-sink/generic.rst:85
