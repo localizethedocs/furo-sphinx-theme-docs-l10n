@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../contributing/design.md:1
+msgid "Design Notes"
+msgstr ""
+
+#: ../../../contributing/design.md:3
+msgid "Reason for existence"
+msgstr ""
+
+#: ../../../contributing/design.md:5
+msgid ""
+"Furo exists because, at the time of writing, no existing Sphinx "
+"documentation theme quite fit what I wanted. The rough structural elements I "
+"wanted were:"
+msgstr ""
+
+#: ../../../contributing/design.md:7
+msgid "Three-column layout, for proper in-page navigation."
+msgstr ""
+
+#: ../../../contributing/design.md:8
+msgid "Clear navigational sidebar."
+msgstr ""
+
+#: ../../../contributing/design.md:9
+msgid "Good search."
+msgstr ""
+
+#: ../../../contributing/design.md:10
+msgid "Good typography."
+msgstr ""
+
+#: ../../../contributing/design.md:11
+msgid "Good looking design."
+msgstr ""
+
+#: ../../../contributing/design.md:13
+msgid ""
+"Every existing theme either didn't check all of the boxes above, or tried to "
+"do too many things at the same time. There were a few that came close, but "
+"nothing really felt quite polished to me."
+msgstr ""
+
+#: ../../../contributing/design.md:15
+msgid "\"Guiding\" ideas"
+msgstr ""
+
+#: ../../../contributing/design.md:17
+msgid ""
+"Furo's design follows a few of the ideas I've had discovered over the course "
+"of browsing the existing documentation themes across ecosystems and static "
+"site generators."
+msgstr ""
+
+#: ../../../contributing/design.md:19
+msgid "Focus _must_ be on the content."
+msgstr ""
+
+#: ../../../contributing/design.md:20
+msgid "More stuff is not more good."
+msgstr ""
+
+#: ../../../contributing/design.md:21
+msgid "Graceful degradation is important, so are niceties."
+msgstr ""
+
+#: ../../../contributing/design.md:22
+msgid "Simple and good enough, is more than sufficient."
+msgstr ""
+
+#: ../../../contributing/design.md:23
+msgid "This is for the 80% -- don't need to cover all possible usecases."
+msgstr ""
