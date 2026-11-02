@@ -43,6 +43,7 @@ msgstr ""
 
 #: ../../../customisation/sidebar-title.md:16
 msgid ""
-"where `project` and `release` are variables with the same name in the `conf."
-"py` file. If `release` is not specified, it will be omitted from the title."
+"where `project` and `release` are variables with the same name in the "
+"`conf.py` file. If `release` is not specified, it will be omitted from the "
+"title."
 msgstr ""

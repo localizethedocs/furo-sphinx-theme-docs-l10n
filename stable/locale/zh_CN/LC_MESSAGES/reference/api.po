@@ -268,8 +268,9 @@ msgstr ""
 msgid ""
 "Set of uppercased HTTP method verbs that we should retry on.  By default, we "
 "only retry on methods which are considered to be idempotent (multiple "
-"requests with the same parameters end with the same state). See :attr:`Retry."
-"DEFAULT_ALLOWED_METHODS`.  Set to a ``None`` value to retry on any verb."
+"requests with the same parameters end with the same state). "
+"See :attr:`Retry.DEFAULT_ALLOWED_METHODS`.  Set to a ``None`` value to retry "
+"on any verb."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring
@@ -281,8 +282,8 @@ msgstr ""
 #: of urllib3.util.retry.Retry:89
 msgid ""
 "By default, we only retry on methods which are considered to be idempotent "
-"(multiple requests with the same parameters end with the same state). See :"
-"attr:`Retry.DEFAULT_ALLOWED_METHODS`."
+"(multiple requests with the same parameters end with the same state). "
+"See :attr:`Retry.DEFAULT_ALLOWED_METHODS`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring
@@ -393,16 +394,16 @@ msgstr ""
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring
 #: of urllib3.util.retry.Retry:136
 msgid ""
-"The history of the request encountered during each call to :meth:`~Retry."
-"increment`. The list is in the order the requests occurred. Each list item "
-"is of class :class:`RequestHistory`."
+"The history of the request encountered during each call "
+"to :meth:`~Retry.increment`. The list is in the order the requests occurred. "
+"Each list item is of class :class:`RequestHistory`."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring
 #: of urllib3.util.retry.Retry:140
 msgid ""
-"Whether to respect Retry-After header on status codes defined as :attr:"
-"`Retry.RETRY_AFTER_STATUS_CODES` or not."
+"Whether to respect Retry-After header on status codes defined "
+"as :attr:`Retry.RETRY_AFTER_STATUS_CODES` or not."
 msgstr ""
 
 #: ../../../../../../.conda/lib/python3.13/site-packages/urllib3/util/retry.py:docstring

@@ -134,8 +134,8 @@ msgstr ""
 
 #: ../../../kitchen-sink/blocks.rst:99
 msgid ""
-"https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives."
-"html#directive-productionlist"
+"https://www.sphinx-doc.org/en/master/usage/restructuredtext/"
+"directives.html#directive-productionlist"
 msgstr ""
 
 #: ../../../kitchen-sink/blocks.rst:101
@@ -157,8 +157,8 @@ msgstr ""
 
 #: ../../../kitchen-sink/blocks.rst:119
 msgid ""
-"https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics."
-"html#literal-blocks"
+"https://www.sphinx-doc.org/en/master/usage/restructuredtext/"
+"basics.html#literal-blocks"
 msgstr ""
 
 #: ../../../kitchen-sink/blocks.rst:121
