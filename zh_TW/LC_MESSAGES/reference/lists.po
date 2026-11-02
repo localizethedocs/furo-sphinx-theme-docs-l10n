@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/lists.md:1
+msgid "Lists"
+msgstr ""
+
+#: ../../../reference/lists.md:3
+msgid ""
+"Lists are useful because they emphasize certain information in regular text. "
+"They can able be used to enumerate or provide an easier reference. Sphinx "
+"allows for various forms of lists, each of which can be used in a different "
+"manner."
+msgstr ""
+
+#: ../../../reference/lists.md:5
+msgid "Bullet Lists"
+msgstr ""
+
+#: ../../../reference/lists.md:10
+msgid ""
+"- Bullet lists in reStructuredText are fairly straightforward.\n"
+"- A bunch of bullet points.\n"
+"\n"
+"  - Nested bullets should be indented by **exactly** two spaces.\n"
+"  - They also need a blank line before and after them, otherwise it doesn't\n"
+"    work right.\n"
+"\n"
+"- It is also possible to have multiple paragraphs in a bullet.\n"
+"\n"
+"  Make sure to have a blank line between the paragraphs, and to indent the\n"
+"  paragraphs to the correct level."
+msgstr ""
+
+#: ../../../reference/lists.md:26
+msgid "Bullet lists in reStructuredText are fairly straightforward."
+msgstr ""
+
+#: ../../../reference/lists.md:27 ../../../reference/lists.md:53
+msgid "A bunch of bullet points."
+msgstr ""
+
+#: ../../../reference/lists.md:29
+msgid "Nested bullets should be indented by **exactly** two spaces."
+msgstr ""
+
+#: ../../../reference/lists.md:30
+msgid ""
+"They also need a blank line before and after them, otherwise it doesn't work "
+"right."
+msgstr ""
+
+#: ../../../reference/lists.md:33 ../../../reference/lists.md:57
+msgid "It is also possible to have multiple paragraphs in a bullet."
+msgstr ""
+
+#: ../../../reference/lists.md:35 ../../../reference/lists.md:59
+msgid ""
+"Make sure to have a blank line between the paragraphs, and to indent the "
+"paragraphs to the correct level."
+msgstr ""
+
+#: ../../../reference/lists.md:40
+msgid ""
+"- Bullet lists in Markdown are pretty straightforward.\n"
+"- A bunch of bullet points.\n"
+"  - Nested bullets should be indented by two or more spaces.\n"
+"  - They can just \"show up\" inline with the rest of the list. Adding blank "
+"lines\n"
+"    before and after is also permitted.\n"
+"- It is also possible to have multiple paragraphs in a bullet.\n"
+"\n"
+"  Make sure to have a blank line between the paragraphs, and to indent the\n"
+"  paragraphs to the correct level.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/lists.md:52
+msgid "Bullet lists in Markdown are pretty straightforward."
+msgstr ""
+
+#: ../../../reference/lists.md:54
+msgid "Nested bullets should be indented by two or more spaces."
+msgstr ""
+
+#: ../../../reference/lists.md:55
+msgid ""
+"They can just \"show up\" inline with the rest of the list. Adding blank "
+"lines before and after is also permitted."
+msgstr ""
+
+#: ../../../reference/lists.md:34
+msgid "Numbered Lists"
+msgstr ""
+
+#: ../../../reference/lists.md:39
+msgid ""
+"1. Numbered lists are not complicated.\n"
+"2. They do exactly what you think they do."
+msgstr ""
+
+#: ../../../reference/lists.md:46 ../../../reference/lists.md:56
+msgid "Numbered lists are not complicated."
+msgstr ""
+
+#: ../../../reference/lists.md:47 ../../../reference/lists.md:57
+msgid "They do exactly what you think they do."
+msgstr ""
+
+#: ../../../reference/lists.md:51
+msgid ""
+"1. Numbered lists are not complicated.\n"
+"2. They do exactly what you think they do.\n"
+"\n"
+msgstr ""
+
+#: ../../../reference/lists.md:47 ../../../reference/lists.md:62
+#: ../../../reference/lists.md:78
+msgid "Definition Lists"
+msgstr ""
+
+#: ../../../reference/lists.md:52
+msgid ""
+"Definition Lists\n"
+"   An extremely useful tool for describing stuff.\n"
+"\n"
+"Complicated Term\n"
+"   Definition"
+msgstr ""
+
+#: ../../../reference/lists.md:63 ../../../reference/lists.md:79
+msgid "An extremely useful tool for describing stuff."
+msgstr ""
+
+#: ../../../reference/lists.md:65 ../../../reference/lists.md:81
+msgid "Complicated Term"
+msgstr ""
+
+#: ../../../reference/lists.md:66 ../../../reference/lists.md:82
+msgid "Definition"
+msgstr ""
+
+#: ../../../reference/lists.md:70
+msgid ""
+"Definition Lists\n"
+":  An extremely useful tool for describing stuff.\n"
+"\n"
+"Complicated Term\n"
+":  Definition\n"
+"\n"
+msgstr ""

@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../customisation/toc.md:1
+msgid "Hiding Contents sidebar"
+msgstr ""
+
+#: ../../../customisation/toc.md:7
+msgid ""
+"Furo supports hiding the \"Contents\" sidebar (right), and does so "
+"automatically for any pages that don't have any inner headings."
+msgstr ""
+
+#: ../../../customisation/toc.md:9
+msgid ""
+"To explicitly hide it on a specific page, `hide-toc` can be set in the [File-"
+"Wide metadata][sphinx-file-wide-metadata] for that page."
+msgstr ""
+
+#: ../../../customisation/toc.md:12
+msgid ""
+":hide-toc:\n"
+"\n"
+"[page contents]\n"
+msgstr ""
+
+#: ../../../customisation/toc.md:20
+msgid ""
+"---\n"
+"hide-toc: true\n"
+"---\n"
+"\n"
+"[page contents]\n"
+msgstr ""
