@@ -292,8 +292,8 @@ msgstr ""
 
 #: ../../../kitchen-sink/lists.rst:127
 msgid ""
-"The process of putting thoughts into a medium for other people to :term:"
-"`read <Reading>`."
+"The process of putting thoughts into a medium for other people "
+"to :term:`read <Reading>`."
 msgstr ""
 
 #: ../../../kitchen-sink/lists.rst:129
@@ -471,8 +471,8 @@ msgstr ""
 
 #: ../../../kitchen-sink/lists.rst:228
 msgid ""
-"I kept saying that, \"deeper down the rabbit hole\". `yahoo <http://www."
-"yahoo.com>`_"
+"I kept saying that, \"deeper down the rabbit hole\". `yahoo <http://"
+"www.yahoo.com>`_"
 msgstr ""
 
 #: ../../../kitchen-sink/lists.rst:230

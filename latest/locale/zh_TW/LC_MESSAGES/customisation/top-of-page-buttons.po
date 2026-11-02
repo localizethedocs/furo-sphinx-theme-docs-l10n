@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../../customisation/top-of-page-buttons.md:13
 msgid ""
-"This feature is inherited from [sphinx-basic-ng](https://sphinx-basic-ng."
-"readthedocs.io/en/latest/), specifically the [`view-this-page.html`](https://"
-"sphinx-basic-ng.readthedocs.io/en/latest/usage/components/view-this-page/) "
-"and [`edit-this-page`](https://sphinx-basic-ng.readthedocs.io/en/latest/"
-"usage/components/edit-this-page/) components."
+"This feature is inherited from [sphinx-basic-ng](https://sphinx-basic-"
+"ng.readthedocs.io/en/latest/), specifically the [`view-this-page.html`]"
+"(https://sphinx-basic-ng.readthedocs.io/en/latest/usage/components/view-this-"
+"page/) and [`edit-this-page`](https://sphinx-basic-ng.readthedocs.io/en/"
+"latest/usage/components/edit-this-page/) components."
 msgstr ""
 
 #: ../../../customisation/top-of-page-buttons.md:15

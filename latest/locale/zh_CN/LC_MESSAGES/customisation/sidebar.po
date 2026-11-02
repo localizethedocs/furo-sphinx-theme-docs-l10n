@@ -106,9 +106,9 @@ msgstr ""
 
 #: ../../../customisation/sidebar.md:42
 msgid ""
-"The scrollable region in the sidebar is determined by `sidebar/scroll-start."
-"html` and `sidebar/scroll-end.html`. Any elements that fall between them can "
-"be scrolled."
+"The scrollable region in the sidebar is determined by `sidebar/scroll-"
+"start.html` and `sidebar/scroll-end.html`. Any elements that fall between "
+"them can be scrolled."
 msgstr ""
 
 #: ../../../customisation/sidebar.md:45

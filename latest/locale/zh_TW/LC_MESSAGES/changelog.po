@@ -598,8 +598,8 @@ msgstr ""
 
 #: ../../../changelog.md:197
 msgid ""
-"Switch from `optional-dependencies` (AKA extras) to dedicated `requirements."
-"txt` files."
+"Switch from `optional-dependencies` (AKA extras) to dedicated "
+"`requirements.txt` files."
 msgstr ""
 
 #: ../../../changelog.md:199

@@ -55,8 +55,8 @@ msgid ""
 "\n"
 "There's a lot more forms of \"blocks\" in reStructuredText that can be used, "
 "as\n"
-"seen in https://docutils.sourceforge.io/docs/ref/rst/restructuredtext."
-"html#literal-blocks."
+"seen in https://docutils.sourceforge.io/docs/ref/rst/"
+"restructuredtext.html#literal-blocks."
 msgstr ""
 
 #: ../../../reference/code-blocks.md:34
@@ -89,8 +89,8 @@ msgstr ""
 #: ../../../reference/code-blocks.md:53
 msgid ""
 "There's a lot more forms of \"blocks\" in reStructuredText that can be used, "
-"as seen in https://docutils.sourceforge.io/docs/ref/rst/restructuredtext."
-"html#literal-blocks."
+"as seen in https://docutils.sourceforge.io/docs/ref/rst/"
+"restructuredtext.html#literal-blocks."
 msgstr ""
 
 #: ../../../reference/code-blocks.md:58
