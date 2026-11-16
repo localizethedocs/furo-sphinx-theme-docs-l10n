@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Pradyun Gedam
+# This file is distributed under the same license as the furo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: furo stable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-26 09:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../kitchen-sink/index.md:1
+msgid ""
+"<!--\n"
+" ~ Copyright (c) 2021 Pradyun Gedam\n"
+" ~ Licensed under Creative Commons Attribution-ShareAlike 4.0 International "
+"License\n"
+" ~ SPDX-License-Identifier: CC-BY-SA-4.0\n"
+" -->\n"
+msgstr ""
+
+#: ../../../kitchen-sink/index.md:7
+msgid "Kitchen Sink"
+msgstr ""
+
+#: ../../../kitchen-sink/index.md:9
+msgid "This section exists as a dump of all the things that Sphinx has."
+msgstr ""
+
+#: ../../../kitchen-sink/index.md:11
+msgid ""
+"It has exactly one goal: to be a good checklist of things to stylise within "
+"Sphinx. This also means that it is a complete showcase of _everything_ that "
+"vanilla Sphinx provides and includes all sorts of edge cases."
+msgstr ""
+
+#: ../../../kitchen-sink/index.md:13
+msgid ""
+"Some of the content here builds upon [`sphinx-rtd-theme`'s demo "
+"documentation](https://sphinx-rtd-theme.readthedocs.io/en/stable/) as well "
+"as [`docutils`' reference documentation](https://docutils.sourceforge.io/"
+"docs/index.html#ref-reference-material-for-all-groups)."
+msgstr ""
